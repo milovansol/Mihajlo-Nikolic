@@ -1,10 +1,8 @@
 import { NextResponse } from 'next/server';
 import RSS from 'rss';
-import { fetchBlogs } from '../utils/fetchWordpress';
 import { siteConfig } from '../config';
 
 export async function GET(request: Request) {
-  const blogs = await fetchBlogs();
   const { protocol, host } = new URL(request.url);
   const siteUrl = `${protocol}//${host}`;
 
@@ -20,18 +18,6 @@ export async function GET(request: Request) {
     language: 'en',
     pubDate: new Date().toUTCString(),
     ttl: 60,
-  });
-
-  blogs.forEach((post) => {
-    feed.item({
-      title: post.title.rendered,
-      description: post.excerpt.rendered,
-      url: `${siteUrl}/blogs/${post.slug}`,
-      guid: `${siteUrl}/blogs/${post.slug}`,
-      categories: post.categories.map(String),
-      author: `${siteConfig.email} (${siteConfig.name})`,
-      date: new Date(post.date).toUTCString(),
-    });
   });
 
   return new NextResponse(feed.xml({ indent: true }), {
