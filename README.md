@@ -1,14 +1,14 @@
-# Alvin Chang's Portfolio
+# Milorad Antic's Portfolio
 
-This is a personal portfolio website for Alvin Chang, showcasing projects, blogs, and experiences as a full-stack developer. The site is built using Next.js, Tailwind CSS, and other modern web technologies.
+This is a personal portfolio website for Milorad Antic, showcasing projects, blogs, and experiences as a full-stack developer. The site is built using Next.js, Tailwind CSS, and other modern web technologies.
 
-🔗 [Live Demo](https://alvinchang.dev)
+🔗 [Live Demo](https://miloradantic.dev)
 
 ## Important Notice
 
 While this project's code is open source, please note the following:
 
-- **Attribution Required**: If you use this template for commercial purposes, attribution to Alvin Chang (https://alvinchang.dev) is required.
+- **Attribution Required**: If you use this template for commercial purposes, attribution to Milorad Antic (https://miloradantic.dev) is required.
 - **Copyright Notice**: The following elements are copyrighted and NOT available for reuse:
   - All logos and branding elements
   - Blog content and articles
@@ -60,7 +60,7 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/auroradream04/aurora-portfolio.git
+   git clone https://github.com/codbuild-er/aurora-portfolio.git
    ```
 
 2. Navigate to the project directory:
@@ -107,7 +107,7 @@ This project can be deployed on platforms like Vercel, Netlify, or any other hos
 When using this template commercially, please include the following attribution in your footer or credits page:
 
 ```
-Template designed by Alvin Chang (https://alvinchang.dev)
+Template designed by Milorad Antic (https://miloradantic.dev)
 ```
 
 ## License
@@ -118,7 +118,7 @@ This project's code structure is available under a modified MIT License with add
 
 ## Contact
 
-For any inquiries, please contact Alvin Chang at alvin@studioaurora.io.
+For any inquiries, please contact Milorad Antic at miloradantc@gmail.com.
 
 ---
 

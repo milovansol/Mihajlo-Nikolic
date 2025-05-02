@@ -38,15 +38,15 @@ import { DiRedis } from "react-icons/di";
 
 
 export const siteConfig = {
-    name: "Alvin Chang",
-    title: "Alvin Chang | Full-Stack Developer",
-    email: "alvin@studioaurora.io",
-    alias: "Aurora",
+    name: "Milorad Antic",
+    title: "Milorad Antic | Full-Stack Developer",
+    email: "miloradantc@gmail.com",
+    alias: "Milorad",
     description:
-        "Alvin Chang is a web developer who builds scalable, user-centric applications using Next.js, WordPress, and other frameworks. With a focus on performance, accessibility, and clean code, Alvin creates digital solutions that are both functional and aesthetically pleasing.",
+        "Milorad Antic is a web developer who builds scalable, user-centric applications using Next.js, WordPress, and other frameworks. With a focus on performance, accessibility, and clean code, Milorad creates digital solutions that are both functional and aesthetically pleasing.",
     keywords:
-        "Alvin Chang, full-stack developer, web development, Next.js, WordPress, React, Node.js, scalable applications, clean code",
-    url: "https://alvinchang.dev",
+        "Milorad Antic, full-stack developer, web development, Next.js, WordPress, React, Node.js, scalable applications, clean code",
+    url: "https://miloradantic.dev",
     taglines: [
         "🚀 Coding Simplicity, Crafting Solutions: Bringing Ideas to Life, One Line at a Time. ✨ Let's transform challenges into digital possibilities with precision and creativity!",
         "🎨 Where Code Meets Creativity: Building Digital Experiences that Matter. 🌐 From intuitive interfaces to powerful backend systems, I create solutions that engage and inspire.",
@@ -56,23 +56,23 @@ export const siteConfig = {
     socialLinks: [
         {
             icon: <FaGithub />,
-            url: "https://github.com/auroradream04",
+            url: "https://github.com/codbuild-er",
         },
         {
             icon: <FaLinkedin />,
-            url: "https://www.linkedin.com/in/auroradream04/",
+            url: "https://www.linkedin.com/in/milorad-antic/",
         },
-        {
-            icon: <FaSquareXTwitter />,
-            url: "https://x.com/aurora_dream04",
-        },
-        {
-            icon: <FaDiscord />,
-            url: "https://discord.gg/pwYGjDebkF",
-        },
+        // {
+        //     icon: <FaSquareXTwitter />,
+        //     url: "https://x.com/aurora_dream04",
+        // },
+        // {
+        //     icon: <FaDiscord />,
+        //     url: "https://discord.gg/pwYGjDebkF",
+        // },
         {
             icon: <IoIosMail />,
-            url: "mailto:alvin@studioaurora.io",
+            url: "mailto:miloradantc@gmail.com",
         },
     ],
     sections: {
@@ -93,10 +93,10 @@ export const siteConfig = {
                 id: "technologies",
                 label: "TECHNOLOGIES",
             },
-            {
-                id: "blogs",
-                label: "BLOGS",
-            },
+            // {
+            //     id: "blogs",
+            //     label: "BLOGS",
+            // },
             {
                 id: "contact",
                 label: "CONTACT",
@@ -104,7 +104,7 @@ export const siteConfig = {
         ],
         aboutMe: `
             <p>
-                Hi! I'm Alvin, a <strong>full-stack developer</strong> who started coding in <strong>2023</strong>. Since then, I've built <strong>streaming platforms</strong>, <strong>blogs</strong>, and <strong>e-commerce sites</strong>. Whether it’s front-end finesse or back-end logic, I love bringing ideas to life on the web.
+                Hi! I'm Milorad, a <strong>full-stack developer</strong> who started coding in <strong>2023</strong>. Since then, I've built <strong>streaming platforms</strong>, <strong>blogs</strong>, and <strong>e-commerce sites</strong>. Whether it’s front-end finesse or back-end logic, I love bringing ideas to life on the web.
             </p>
             <p>
                 When I’m not coding, you’ll find me playing <strong>Dota 2</strong>, cooking up new recipes, or streaming on <strong>Kick</strong>. Let's connect—I'd love to help with your next <strong>website</strong> or <strong>API</strong> project!
@@ -128,11 +128,11 @@ export const siteConfig = {
         ],
         projects: [
             {
-                title: "Alvin Chang | Portfolio Website",
+                title: "Milorad Antic | Portfolio Website",
                 description:
                     "This is my portfolio website. I built it to showcase my projects and skills. It is a static site built with Next.js, Tailwind CSS, and Shadcn/UI. I used the following technologies to build it:",
                 logo: "/logox.png",
-                repoLink: "https://github.com/auroradream04/aurora-portfolio",
+                repoLink: "https://github.com/codbuild-er/aurora-portfolio",
                 technologies: [
                     {
                         icon: <RiNextjsFill className="text-[#FFF]" />,
@@ -151,14 +151,14 @@ export const siteConfig = {
                         name: "TypeScript",
                     },
                 ],
-                link: "https://alvinchang.dev",
+                link: "https://miloradantic.dev",
             },
             {
                 title: "Genzify AI",
                 description:
                     "GenZify is an AI-powered tool I developed to transform everyday text into trendy Gen Z-style language. I managed both the front-end design and back-end development, integrating AI functionality for smooth and creative rephrasings. The platform delivers a fun, engaging experience, perfect for anyone looking to add a modern twist to their communication. This project highlights my skills in blending AI with user-centric design to create a playful, interactive web tool.",
                 logo: "/genzify-logo.png",
-                repoLink: "https://github.com/auroradream04/genzify-app",
+                repoLink: "https://github.com/codbuild-er/genzify-app",
                 technologies: [
                     {
                         icon: <RiNextjsFill className="text-[#FFF]" />,

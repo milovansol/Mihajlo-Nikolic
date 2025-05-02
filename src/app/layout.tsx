@@ -40,7 +40,7 @@ export const metadata: Metadata = {
                 url: "/Portfolio.png",
                 width: 1920,
                 height: 1080,
-                alt: "Alvin Chang Portfolio",
+                alt: "Milorad Antic Portfolio",
             },
         ],
     },
@@ -69,15 +69,15 @@ export default function RootLayout({
                 />
                 <meta
                     name="apple-mobile-web-app-title"
-                    content="AlvinChang.dev"
+                    content="MiloradAntic.dev"
                 />
                 <link rel="manifest" href="/site.webmanifest" />
-                <link 
-                    rel="alternate" 
-                    type="application/rss+xml" 
-                    title={`RSS Feed for ${siteConfig.name}'s Blog`} 
-                    href="/feed.xml" 
-                />
+                {/*<link */}
+                {/*    rel="alternate" */}
+                {/*    type="application/rss+xml" */}
+                {/*    title={`RSS Feed for ${siteConfig.name}'s Blog`} */}
+                {/*    href="/feed.xml" */}
+                {/*/>*/}
             </head>
             <body
                 className={`${inter.className} antialiased bg-background text-slate-100`}

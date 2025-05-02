@@ -6,23 +6,23 @@ import Footer from "../components/Footer";
 import SocialIcons from "../components/SocialIcons";
 
 export const metadata: Metadata = {
-    title: "Blogs - Alvin Chang",
-    description: "Alvin Chang's Blog, fragments of my imagination",
-    keywords: "Alvin Chang, blog, nextjs, react, javascript, typescript, web development, programming",
+    title: "Blogs - Milorad Antic",
+    description: "Milorad Antic's Blog, fragments of my imagination",
+    keywords: "Milorad Antic, blog, nextjs, react, javascript, typescript, web development, programming",
     alternates: {
-        canonical: "https://alvinchang.dev/blogs",
+        canonical: "https://miloradantic.dev/blogs",
     },
     openGraph: {
-        title: "Blogs - Alvin Chang",
-        description: "Alvin Chang's Blog, fragments of my imagination",
-        url: "https://alvinchang.dev/blogs",
+        title: "Blogs - Milorad Antic",
+        description: "Milorad Antic's Blog, fragments of my imagination",
+        url: "https://miloradantic.dev/blogs",
         type: "website",
         images: [
             {
                 url: "/horizontal-logo.png",
                 width: 1100,
                 height: 300,
-                alt: "Alvin Chang Portfolio Logo",
+                alt: "Milorad Antic Portfolio Logo",
             },
         ],
     }

@@ -22,7 +22,7 @@ export default async function Home() {
         url: siteConfig.url,
         keywords: siteConfig.keywords,
     };
-    const blogs = await fetchBlogs();
+    // const blogs = await fetchBlogs();
 
     return (
         <main className="w-full min-h-screen px-4 sm:px-20 xl:px-40 2xl:px-80">
@@ -52,7 +52,7 @@ export default async function Home() {
                     <Experiences />
                     <Projects />
                     <Technologies />
-                    <HomepageBlogs blogs={blogs} />
+                    {/*<HomepageBlogs blogs={blogs} />*/}
                     <ContactForm />
                     <Footer />
                     <SocialIcons />
