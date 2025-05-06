@@ -38,15 +38,15 @@ import { DiRedis } from "react-icons/di";
 
 
 export const siteConfig = {
-    name: "Milorad Antic",
-    title: "Milorad Antic | Full-Stack Developer",
-    email: "miloradantc@gmail.com",
-    alias: "Milorad",
+    name: "Milovan Soldatovic",
+    title: "Milovan Soldatovic | Full-Stack Developer",
+    email: "milovanantc@gmail.com",
+    alias: "Milovan",
     description:
-        "Milorad Antic is a web developer who builds scalable, user-centric applications using Next.js, WordPress, and other frameworks. With a focus on performance, accessibility, and clean code, Milorad creates digital solutions that are both functional and aesthetically pleasing.",
+        "Milovan Soldatovic is a web developer who builds scalable, user-centric applications using Next.js, WordPress, and other frameworks. With a focus on performance, accessibility, and clean code, Milovan creates digital solutions that are both functional and aesthetically pleasing.",
     keywords:
-        "Milorad Antic, full-stack developer, web development, Next.js, WordPress, React, Node.js, scalable applications, clean code",
-    url: "https://miloradantic.dev",
+        "Milovan Soldatovic, full-stack developer, web development, Next.js, WordPress, React, Node.js, scalable applications, clean code",
+    url: "https://milovansoldatovic.dev",
     taglines: [
         "🚀 Coding Simplicity, Crafting Solutions: Bringing Ideas to Life, One Line at a Time. ✨ Let's transform challenges into digital possibilities with precision and creativity!",
         "🎨 Where Code Meets Creativity: Building Digital Experiences that Matter. 🌐 From intuitive interfaces to powerful backend systems, I create solutions that engage and inspire.",
@@ -60,7 +60,7 @@ export const siteConfig = {
         },
         {
             icon: <FaLinkedin />,
-            url: "https://www.linkedin.com/in/milorad-antic/",
+            url: "https://www.linkedin.com/in/milovan-soldatovic/",
         },
         // {
         //     icon: <FaSquareXTwitter />,
@@ -72,7 +72,7 @@ export const siteConfig = {
         // },
         {
             icon: <IoIosMail />,
-            url: "mailto:miloradantc@gmail.com",
+            url: "mailto:milovanantc@gmail.com",
         },
     ],
     sections: {
@@ -104,7 +104,7 @@ export const siteConfig = {
         ],
         aboutMe: `
             <p>
-                Hi! I'm Milorad, a <strong>full-stack developer</strong> who started coding in <strong>2023</strong>. Since then, I've built <strong>streaming platforms</strong>, <strong>blogs</strong>, and <strong>e-commerce sites</strong>. Whether it’s front-end finesse or back-end logic, I love bringing ideas to life on the web.
+                Hi! I'm Milovan, a <strong>full-stack developer</strong> who started coding in <strong>2023</strong>. Since then, I've built <strong>streaming platforms</strong>, <strong>blogs</strong>, and <strong>e-commerce sites</strong>. Whether it’s front-end finesse or back-end logic, I love bringing ideas to life on the web.
             </p>
             <p>
                 When I’m not coding, you’ll find me playing <strong>Dota 2</strong>, cooking up new recipes, or streaming on <strong>Kick</strong>. Let's connect—I'd love to help with your next <strong>website</strong> or <strong>API</strong> project!
@@ -128,7 +128,7 @@ export const siteConfig = {
         ],
         projects: [
             {
-                title: "Milorad Antic | Portfolio Website",
+                title: "Milovan Soldatovic | Portfolio Website",
                 description:
                     "This is my portfolio website. I built it to showcase my projects and skills. It is a static site built with Next.js, Tailwind CSS, and Shadcn/UI. I used the following technologies to build it:",
                 logo: "/logox.png",
@@ -151,7 +151,7 @@ export const siteConfig = {
                         name: "TypeScript",
                     },
                 ],
-                link: "https://miloradantic.dev",
+                link: "https://milovansoldatovic.dev",
             },
             {
                 title: "Genzify AI",
