@@ -18,7 +18,7 @@ export default function Projects() {
             >
                 <SectionLabel label="PROJECTS" className="lg:pl-6" />
                 <div className="w-full flex flex-wrap gap-4">
-                    {siteConfig.sections.project.map((project, index) => (
+                    {siteConfig.sections.projects.map((project, index) => (
                         <ProjectCard key={index} {...project} />
                      ))}
                 </div>

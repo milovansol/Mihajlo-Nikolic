@@ -59,7 +59,7 @@ export const siteConfig = {
         "🎨 Where Code Meets Creativity: Building Digital Experiences that Matter. 🌐 From intuitive interfaces to powerful backend systems, I create solutions that engage and inspire.",
         "💡 Innovating Beyond the Screen: Crafting Seamless Digital Journeys. 🌟 From concept to completion, let’s build the future, one pixel and one line of code at a time.",
     ],
-    titles: ["Full-Stack Developer", "NextJS Developer", "Wordpress Developer"],
+    titles: ["Full-Stack Developer", "NextJS Developer", "Node.js Developer"],
     socialLinks: [
         {
             icon: <FaGithub />,
@@ -132,33 +132,54 @@ export const siteConfig = {
 </ul>`,
             },
             {
-                company: "Devapo",
+                company: "Duos Asinos",
                 position: "Full Stack Developer",
-                duration: "03/2021 - 12/2024",
+                duration: "02/2020 - 12/2024",
                 description:`
 <ul style="list-style: disc;">
-  <li>Updated the fintech project with Angular, Nest.js, Stripe, AWS and worked on the deployment process by CI/CD pipeline</li>
-  <li>Integrated the real-time socket communication and complex payment system</li>
-  <li>Actively participated in decision-making processes pertaining to various project-related topics and and provided mentorship to junior developers, guiding them in issue resolution, code patterns, and overall best practices</li>
-  <li>Developed a marketplace platform for photographers using FastAPI and Vue.js and integrated the Jest and Cypress for testing Created an ecommerce project using Vue, Laravel</li>
-  <li>Updated a sophisticated business intelligence application that enables in-depth analysis of marketing performance and customer activities</li>
-  <li>Developed a Saas platform using React, Tailwind CSS, Node and MongoDB and built a custom UI component library utilizing React, TypeScript and Storybook</li>
+  <li>Built an advanced IoT portal using React.js, capitalizing on its full suite of features for dynamic and responsive UI components.</li>
+  <li>Developed a robust and scalable multi-tenant IoT platform using Node.js integrated with a Serverless architecture.</li>
+  <li>Designed and implemented sophisticated cloud-based microservices for the automotive industry, with front-end solutions developed in Next.js and supported by Angular for improved responsiveness and interactivity.</li>
+  <li>Enhanced AWS Lambda performance by implementing efficient bundling, tree shaking, and leveraging top-level await to significantly reduce cold start times.</li>
+  <li>Led the development of a loyalty web application using Next.js, achieving seamless cross-platform integration and enhanced user engagement.</li>
+  <li>Developed Java-based back-end solutions to ensure robust processing and integration with client applications.</li>
+  <li>Conducted end-to-end design and integration of back-end services with third-party solutions, including Shopify, Magento, Auth0, Zapier, Hubspot, and Pipedrive, enhancing system interoperability.</li>
+  <li>Increased application efficiency and operational performance through strategic integration of Amazon Web Services, Firebase, and JavaScript based microservices</li>
 </ul>`,
             },
             {
-                company: "Financial Force",
+                company: "Nignite",
                 position: "Full Stack developer",
-                duration: "01/2017 - 01/2021",
+                duration: "10/2017 - 02/2020",
                 description: `
 <ul style="list-style: disc;">
-  <li>Refactored the existing code to improve the performance</li>
-  <li>Worked on the CI/CD pipeline by Git actions, Jenkins and Circle Cl</li>
-  <li>Worked on the Back-end of the Admin Portal by using Node.js/MongoDB Worked with Mocha, Jest, Cypress</li>
-  <li>Worked on a Advertising platform that manages heavy assets using React, React hooks, Context API</li>
-  <li>Developed complex data visualization platform by React, D3 and Highcharts libraries</li>
-  <li>Utilized the MEAN stack (MongoDB, Express, AngularJS, and Node.js) and modern mobile-first UX designs and upgraded CRM platforms with Vue, Vuex, Laravel frameworks</li>
-  <li>Created Saas project by React, Redux, Node(Express), RESTful API and created a HOC architecture to reuse common GraphQL functionality for listing and filtering</li>
-  <li>Developed with Laravel eloquentORM, templates, Symfony Doctrine, twig blade</li>
+  <li>Spearheaded IoT solution development, incorporating customizable RESTful API integration to enhance cross-device communication.</li>
+  <li>Delved into the Java ecosystem as part of a strategic project in the gas distribution sector, crafting a utility desktop application based on the uDig geospatial platform using Java, RCP, OracleDB with spatial extensions, GeoTools, and the GDAL library.</li>
+  <li>Instrumental in the successful launch of Nignite's new branch in Warsaw, driving integration events and fostering effective communication between developers and project management teams.</li>
+  <li>Collaborated on existing codebases, maintained adherence to coding standards, conducted regular code reviews, engaged in daily standups to align on priorities, and contributed to the development of franchise platforms.</li>
+  <li>Executed optimization of existing database migrations, resulting in enhanced system performance and streamlined operations.</li>
+</ul>`,
+            },
+            {
+                company: "CUBE Team",
+                position: "Full Stack developer",
+                duration: "05/2015 - 10/2017",
+                description: `
+<ul style="list-style: disc;">
+  <li>Engineered e-commerce and fintech web applications utilizing the MERN/MEAN stack (MongoDB, Express, React, Node.js).</li>
+  <li>Implemented Socket.IO for dynamic group chat functionality and used WebSockets for real-time synchronization across platforms.</li>
+  <li>Designed and developed a trend analysis platform using D3.js, delivering insightful data visualization capabilities.</li>
+</ul>`,
+            },
+            {
+                company: "CUBE Team",
+                position: "Frontend developer",
+                duration: "01/2014 - 05/2015",
+                description: `
+<ul style="list-style: disc;">
+  <li>Joined CUBE Team as a Front-end Developer, contributing to critical projects with a focus on responsive web design.</li>
+  <li>Played a key role in developing a car-driving lesson web application, employing AngularJS and jQuery for interactive feature implementation.</li>
+  <li>Gained substantial hands-on experience with web development technologies, including HTML, CSS, JavaScript, and PHP.</li>
 </ul>`,
             },
         ],
