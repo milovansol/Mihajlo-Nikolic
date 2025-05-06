@@ -1,12 +1,13 @@
+import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin, FaSquareXTwitter, FaDiscord } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import {
-    RiNextjsFill,
+  RiNextjsFill,
   RiVuejsFill,
   RiAngularjsFill,
-    RiTailwindCssFill,
-} from "react-icons/ri";
+  RiTailwindCssFill, RiWordpressFill, RiOpenaiFill,
+} from 'react-icons/ri';
 import {
   SiStrapi,
   SiTypeorm,
@@ -14,30 +15,30 @@ import {
   SiJest,
   SiCypress,
   SiStorybook,
-    SiTypescript,
-    SiShadcnui,
-    SiWoocommerce,
-    SiReact,
-    SiSupabase,
-    SiExpress,
-    SiPuppeteer,
-    SiHtml5,
-    SiCss3,
-    SiJavascript,
-    SiNodedotjs,
-    SiPhp,
+  SiTypescript,
+  SiShadcnui,
+  SiWoocommerce,
+  SiReact,
+  SiSupabase,
+  SiExpress,
+  SiPuppeteer,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiNodedotjs,
+  SiPhp,
   SiPostgresql,
-    SiMysql,
-    SiMongodb,
-    SiGraphql,
-    SiFramer,
-    SiThreedotjs,
-    SiElectron,
-    SiDocker,
-    SiDrizzle,
-    SiMui,
-    SiGit,
-} from "react-icons/si";
+  SiMysql,
+  SiMongodb,
+  SiGraphql,
+  SiFramer,
+  SiThreedotjs,
+  SiElectron,
+  SiDocker,
+  SiDrizzle,
+  SiMui,
+  SiGit, SiPrisma,
+} from 'react-icons/si';
 import { GrGraphQl } from "react-icons/gr";
 import { TbApi, TbBrandReactNative } from "react-icons/tb";
 import { DiRedis } from "react-icons/di";
@@ -162,7 +163,7 @@ export const siteConfig = {
             },
         ],
         projects: [
-        /*    {
+            {
                 title: "Milovan Soldatovic | Portfolio Website",
                 description:
                     "This is my portfolio website. I built it to showcase my projects and skills. It is a static site built with Next.js, Tailwind CSS, and Shadcn/UI. I used the following technologies to build it:",
@@ -289,7 +290,7 @@ export const siteConfig = {
                     },
                 ],
                 link: "https://www.ynct55.com",
-            },*/
+            },
         ],
         technologies: {
             main: [

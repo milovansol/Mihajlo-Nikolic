@@ -48,7 +48,7 @@ export default async function Home() {
                 <main className="w-full lg:w-1/2 px-4 sm:px-0 pt-20 lg:pt-40 text-slate-350 text-sm flex flex-wrap justify-center lg:block lg:mb-40">
                     <AboutMe />
                     <Experiences />
-                    {siteConfig.sections.projects.length && (<Projects />)}
+                    {/*{siteConfig.sections.projects.length && (<Projects />)}*/}
                     <Technologies />
                     {/*<HomepageBlogs blogs={blogs} />*/}
                     <ContactForm />

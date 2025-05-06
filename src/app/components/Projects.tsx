@@ -20,7 +20,7 @@ export default function Projects() {
                 <div className="w-full flex flex-wrap gap-4">
                     {siteConfig.sections.projects.map((project, index) => (
                         <ProjectCard key={index} {...project} />
-                    ))}
+                     ))}
                 </div>
             </section>
         </MotionTag>
