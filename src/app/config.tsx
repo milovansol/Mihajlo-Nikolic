@@ -161,8 +161,8 @@ export const siteConfig = {
 </ul>`,
             },
         ],
-        projects: [
-        /*    {
+        /*projects: [
+            {
                 title: "Milovan Soldatovic | Portfolio Website",
                 description:
                     "This is my portfolio website. I built it to showcase my projects and skills. It is a static site built with Next.js, Tailwind CSS, and Shadcn/UI. I used the following technologies to build it:",
@@ -289,8 +289,8 @@ export const siteConfig = {
                     },
                 ],
                 link: "https://www.ynct55.com",
-            },*/
-        ],
+            },
+        ],*/
         technologies: {
             main: [
                 {
