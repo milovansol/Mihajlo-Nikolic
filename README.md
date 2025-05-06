@@ -118,7 +118,7 @@ This project's code structure is available under a modified MIT License with add
 
 ## Contact
 
-For any inquiries, please contact Milovan Soldatovic at milovanantc@gmail.com.
+For any inquiries, please contact Milovan Soldatovic at milovansoldatovic@gmail.com.
 
 ---
 

@@ -17,7 +17,7 @@ export default function ExperienceCard({
             <div className="col-span-3">
                 <h2 className="text-slate-100 text-sm font-bold">{company}</h2>
                 <h3 className="text-slate-200 text-sm font-medium">{position}</h3>
-                <p className="text-slate-350 text-xs mt-2 lg:text-sm lg:mt-4">{description}</p>
+                <p className="text-slate-350 text-xs mt-2 lg:text-sm lg:mt-4" dangerouslySetInnerHTML={{ __html: description }}></p>
             </div>
         </div>
     );
