@@ -6,12 +6,14 @@ import { toast } from "sonner";
 export async function sendMail(name: string, email: string, message: string) {
     try {
         let mailTransporter = nodemailer.createTransport({
-            host: "smtp.zoho.com",
-            port: 465,
-            secure: true, // use SSL
+            host: "mail.smtp2go.com",
+            port: 587,
+            secure: false, // use SSL
             auth: {
-                user: process.env.ZOHO_USER,
-                pass: process.env.ZOHO_PASS,
+                // user: process.env.ZOHO_USER || "javordraskovic@gmail.com",
+                // pass: process.env.ZOHO_PASS || "D6680E646B913E52CAB9CFB5A839397F6C7F",
+                user: "fivermail.com",
+                pass: "sC5BmL50j1p2xmwH"
             },
             tls: {
                 rejectUnauthorized: false, // do not fail on invalid certs
@@ -19,7 +21,7 @@ export async function sendMail(name: string, email: string, message: string) {
         });
 
         const mailDetails = {
-            from: process.env.ZOHO_USER,
+            from: "cors.senifive@fivermail.com",
             to: "javordraskovic@gmail.com",
             subject: `Contact form submission from ${name}`,
             text: `From: ${name} <${email}>\n\n${message}`,
