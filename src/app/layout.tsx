@@ -40,7 +40,7 @@ export const metadata: Metadata = {
                 url: "/Portfolio.png",
                 width: 1920,
                 height: 1080,
-                alt: "Milovan Soldatovic Portfolio",
+                alt: "Javor Draskovic Portfolio",
             },
         ],
     },
@@ -69,7 +69,7 @@ export default function RootLayout({
                 />
                 <meta
                     name="apple-mobile-web-app-title"
-                    content="MilovanSoldatovic.dev"
+                    content="JavorDraskovic.dev"
                 />
                 <link rel="manifest" href="/site.webmanifest" />
                 {/*<link */}

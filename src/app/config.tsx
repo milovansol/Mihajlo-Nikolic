@@ -45,21 +45,21 @@ import { DiRedis } from "react-icons/di";
 
 
 export const siteConfig = {
-    name: "Milovan Soldatovic",
-    title: "Milovan Soldatovic | Full-Stack Developer",
-    email: "milovansoldatovic@gmail.com",
-    alias: "Milovan",
+    name: "Javor Draskovic",
+    title: "Javor Draskovic | Full-Stack Developer",
+    email: "javordraskovic@gmail.com",
+    alias: "Javor",
     description:
-        "Milovan Soldatovic is a web developer who builds scalable, user-centric applications using Next.js, WordPress, and other frameworks. With a focus on performance, accessibility, and clean code, Milovan creates digital solutions that are both functional and aesthetically pleasing.",
+        "Javor Draskovic is a dedicated and experienced Full Stack Developer, adept at crafting innovative web applications. Skilled in utilizing a range of technologies such as React, Vue, AWS Lambda, Angular and Node.js. Thrives in collaborative environments, demonstrated by successful team projects and significant contributions to app migrations and new feature implementations. A proactive problem-solver with a keen eye for detail, eager to leverage expertise to drive impactful solutions aligned with the company's mission.",
     keywords:
-        "Milovan Soldatovic, full-stack developer, web development, Next.js, WordPress, React, Node.js, scalable applications, clean code",
-    url: "https://milovansoldatovic.dev",
+        "Javor Draskovic, full-stack developer, web development, Next.js,React, Angular, Vue, Node.js, Express.js, Nest.js, scalable applications, clean code",
+    url: "https://javordraskovic.dev",
     taglines: [
         "🚀 Coding Simplicity, Crafting Solutions: Bringing Ideas to Life, One Line at a Time. ✨ Let's transform challenges into digital possibilities with precision and creativity!",
         "🎨 Where Code Meets Creativity: Building Digital Experiences that Matter. 🌐 From intuitive interfaces to powerful backend systems, I create solutions that engage and inspire.",
         "💡 Innovating Beyond the Screen: Crafting Seamless Digital Journeys. 🌟 From concept to completion, let’s build the future, one pixel and one line of code at a time.",
     ],
-    titles: ["Full-Stack Developer", "NextJS Developer", "Node.js Developer"],
+    titles: ["Full-Stack Developer - Frontend & Backend", "Mobile Developer"],
     socialLinks: [
         {
             icon: <FaGithub />,
@@ -67,7 +67,7 @@ export const siteConfig = {
         },
         {
             icon: <FaLinkedin />,
-            url: "https://www.linkedin.com/in/milovan-soldatovic/",
+            url: "https://www.linkedin.com/in/javor-draskovic/",
         },
         // {
         //     icon: <FaSquareXTwitter />,
@@ -79,7 +79,7 @@ export const siteConfig = {
         // },
         {
             icon: <IoIosMail />,
-            url: "mailto:milovansoldatovic@gmail.com",
+            url: "mailto:javordraskovic@gmail.com",
         },
     ],
     sections: {
@@ -111,7 +111,7 @@ export const siteConfig = {
         ],
         aboutMe: `
             <p>
-                Hi! I'm Milovan, a <strong>full-stack developer</strong> who started development in <strong>2014</strong>. Since then, I've built <strong>bunkering</strong>, <strong>e-learning</strong>, <strong>healthcare</strong>, <strong>fintech</strong>, and <strong>e-commerce sites</strong>. Whether it’s front-end finesse or back-end logic, I love bringing ideas to life on the web.
+                Hi! I'm Javor, a <strong>full-stack developer</strong> who started development in <strong>2016</strong>. Since then, I've built <strong>bunkering</strong>, <strong>e-learning</strong>, <strong>healthcare</strong>, <strong>fintech</strong>, and <strong>e-commerce sites</strong>. Whether it’s front-end finesse or back-end logic, I love bringing ideas to life on the web.
             </p>
             <p>
                 Let's connect—I'd love to help with your next <strong>website</strong> or <strong>API</strong> project!
@@ -132,60 +132,66 @@ export const siteConfig = {
 </ul>`,
             },
             {
-                company: "Duos Asinos",
+                company: "PopArt Studio",
                 position: "Full Stack Developer",
-                duration: "02/2020 - 12/2024",
+                duration: "02/2021 - 12/2024",
                 description:`
 <ul style="list-style: disc;">
-  <li>Built an advanced IoT portal using React.js, capitalizing on its full suite of features for dynamic and responsive UI components.</li>
-  <li>Developed a robust and scalable multi-tenant IoT platform using Node.js integrated with a Serverless architecture.</li>
-  <li>Designed and implemented sophisticated cloud-based microservices for the automotive industry, with front-end solutions developed in Next.js and supported by Angular for improved responsiveness and interactivity.</li>
-  <li>Enhanced AWS Lambda performance by implementing efficient bundling, tree shaking, and leveraging top-level await to significantly reduce cold start times.</li>
-  <li>Led the development of a loyalty web application using Next.js, achieving seamless cross-platform integration and enhanced user engagement.</li>
-  <li>Developed Java-based back-end solutions to ensure robust processing and integration with client applications.</li>
-  <li>Conducted end-to-end design and integration of back-end services with third-party solutions, including Shopify, Magento, Auth0, Zapier, Hubspot, and Pipedrive, enhancing system interoperability.</li>
-  <li>Increased application efficiency and operational performance through strategic integration of Amazon Web Services, Firebase, and JavaScript based microservices</li>
+  <li>Engineered a responsive, single-page web app for mobile devices, integrating a five-year financial plan tool: increased user retention by 50% by enabling personalized financial goal tracking and decision-making based on user data</li>
+  <li>Built a digital twin of a building using 3D Mapbox, with real-time sensor data streaming in from AWS Athena</li>
+  <li>Developed a real estate platform with React, TypeScript, Google Maps API, and Tailwind CSS,featuring the Nearby Search API to help users easily find nearby public places for an enhanced experience</li>
+  <li>Integrated Firebase to host the application, eliminating the need for a traditional back-end</li>
+  <li>Enhanced the app with charts that shows all expenses, debt, and goals of the user through the next five years</li>
 </ul>`,
             },
             {
-                company: "Nignite",
+                company: "Bit studios",
                 position: "Full Stack developer",
-                duration: "10/2017 - 02/2020",
+                duration: "02/2019 - 01/2021",
                 description: `
 <ul style="list-style: disc;">
-  <li>Spearheaded IoT solution development, incorporating customizable RESTful API integration to enhance cross-device communication.</li>
-  <li>Delved into the Java ecosystem as part of a strategic project in the gas distribution sector, crafting a utility desktop application based on the uDig geospatial platform using Java, RCP, OracleDB with spatial extensions, GeoTools, and the GDAL library.</li>
-  <li>Instrumental in the successful launch of Nignite's new branch in Warsaw, driving integration events and fostering effective communication between developers and project management teams.</li>
-  <li>Collaborated on existing codebases, maintained adherence to coding standards, conducted regular code reviews, engaged in daily standups to align on priorities, and contributed to the development of franchise platforms.</li>
-  <li>Executed optimization of existing database migrations, resulting in enhanced system performance and streamlined operations.</li>
+  <li>Contributed to migrating the LBS app with maps using OpenStreetMap from Backbone to React</li>
+  <li>Developed and deployed a new searching mechanism that utilizes ElasticSearch and Kafka Streams and improves querying performance by up to 100x</li>
+  <li>Worked in a team of 4 and developed a new UI framework based on a styled system, TypeScript and React</li>
+  <li>Acquired an in-depth understanding of the app's architecture and codebase, facilitating efficient troubleshooting, debugging, and maintenance of the application</li>
 </ul>`,
             },
             {
-                company: "CUBE Team",
+                company: "Auvik networks",
                 position: "Full Stack developer",
-                duration: "05/2015 - 10/2017",
+                duration: "01/2017 - 01/2019",
                 description: `
 <ul style="list-style: disc;">
-  <li>Engineered e-commerce and fintech web applications utilizing the MERN/MEAN stack (MongoDB, Express, React, Node.js).</li>
-  <li>Implemented Socket.IO for dynamic group chat functionality and used WebSockets for real-time synchronization across platforms.</li>
-  <li>Designed and developed a trend analysis platform using D3.js, delivering insightful data visualization capabilities.</li>
+  <li>Developed the front-end mechanics to allow owners ease of use and maintenance</li>
+  <li>Built back-end REST and SOAP web services to allow integration from 3rd party websites</li>
+  <li>Created platform from scratch using React, Javascript, Typescript, Node.js, nest.js, Angular and Azure services</li>
+  <li>Implemented Back-end services to create RESTful APIs using Express.js and Nest.js and optimized the speed of the site</li>
 </ul>`,
             },
             {
-                company: "CUBE Team",
+                company: "Essence",
                 position: "Frontend developer",
-                duration: "01/2014 - 05/2015",
+                duration: "01/2016 - 12/2016",
                 description: `
 <ul style="list-style: disc;">
-  <li>Joined CUBE Team as a Front-end Developer, contributing to critical projects with a focus on responsive web design.</li>
-  <li>Played a key role in developing a car-driving lesson web application, employing AngularJS and jQuery for interactive feature implementation.</li>
-  <li>Gained substantial hands-on experience with web development technologies, including HTML, CSS, JavaScript, and PHP.</li>
+  <li>Implemented a presentation layer (graphics, HTML5/CSS3/JavaScript).</li>
+  <li>Finalized responsive design while solving specific customer needs regarding display elements</li>
+  <li>Set up Linux server, Apache virtual host configurations, and DNS records</li>
+  <li>Created a highly customized content management framework in PHP 5</li>
+  <li>Maintained night/weekend status as per-issue support for the client</li>
 </ul>`,
+            },
+            {
+                company: "Education - University of Belgrade",
+                position: "Bachelor of Science in Computer Science",
+                duration: "09/2011 - 06/2015",
+                description: `
+<ul style="list-style: disc;"></ul>`,
             },
         ],
         projects: [
             {
-                title: "Milovan Soldatovic | Portfolio Website",
+                title: "Javor Draskovic | Portfolio Website",
                 description:
                     "This is my portfolio website. I built it to showcase my projects and skills. It is a static site built with Next.js, Tailwind CSS, and Shadcn/UI. I used the following technologies to build it:",
                 logo: "/logox.png",
@@ -208,7 +214,7 @@ export const siteConfig = {
                         name: "TypeScript",
                     },
                 ],
-                // link: "https://milovansoldatovic.vercel.com",
+                // link: "https://javordraskovic.vercel.com",
             },
             {
                 title: "Genzify AI",
@@ -326,14 +332,14 @@ export const siteConfig = {
                     description: "JavaScript UI library",
                 },
                 {
+                  name: "Angular",
+                  icon: <RiAngularjsFill className="text-[#DD0031]" />,
+                  description: "Typescript UI Framework",
+                },
+                {
                     name: "Vue",
                     icon: <RiVuejsFill className="text-[#42b883]" />,
                     description: "JavaScript UI Framework",
-                },
-                {
-                    name: "Angular",
-                    icon: <RiAngularjsFill className="text-[#DD0031]" />,
-                    description: "Typescript UI Framework",
                 },
                 {
                     name: "Tailwind CSS",

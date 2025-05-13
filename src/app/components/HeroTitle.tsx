@@ -21,12 +21,12 @@ export default function HeroTitle() {
             >
                 <Image
                     src="/logox.png"
-                    alt="Milovan Soldatovic Portfolio Logo"
+                    alt="Javor Draskovic Portfolio Logo"
                     className="w-7 h-7 mr-1 rounded-md"
                     width={28}
                     height={28}
                 />
-                <h1>Hey there, I'm Milovan! 👋</h1>
+                <h1>Hey there, I'm Javor! 👋</h1>
             </MotionTag>
             <MotionTag
                 tag="h1"
