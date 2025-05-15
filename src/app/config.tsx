@@ -45,21 +45,21 @@ import { DiRedis } from "react-icons/di";
 
 
 export const siteConfig = {
-    name: "Javor Draskovic",
-    title: "Javor Draskovic | Full-Stack Developer",
-    email: "javordraskovic@gmail.com",
-    alias: "Javor",
+    name: "Borivoj Delic",
+    title: "Borivoj Delic | Full-Stack Developer",
+    email: "borivojdelic@gmail.com",
+    alias: "Borivoj",
     description:
-        "Javor Draskovic is a dedicated and experienced Full Stack Developer, adept at crafting innovative web applications. Skilled in utilizing a range of technologies such as React, Vue, AWS Lambda, Angular and Node.js. Thrives in collaborative environments, demonstrated by successful team projects and significant contributions to app migrations and new feature implementations. A proactive problem-solver with a keen eye for detail, eager to leverage expertise to drive impactful solutions aligned with the company's mission.",
+        "Borivoj Delic is a dedicated and experienced Full Stack Developer, adept at crafting innovative web applications. Skilled in utilizing a range of technologies such as React, Vue, AWS Lambda, Angular and Node.js. Thrives in collaborative environments, demonstrated by successful team projects and significant contributions to app migrations and new feature implementations. A proactive problem-solver with a keen eye for detail, eager to leverage expertise to drive impactful solutions aligned with the company's mission.",
     keywords:
-        "Javor Draskovic, full-stack developer, web development, Next.js,React, Angular, Vue, Node.js, Express.js, Nest.js, scalable applications, clean code",
-    url: "https://javordraskovic.dev",
+        "Borivoj Delic, full-stack developer, web development, Next.js,React, Angular, Vue, Node.js, Express.js, Nest.js, scalable applications, clean code",
+    url: "https://borivojdelic.vercel.app",
     taglines: [
         "🚀 Coding Simplicity, Crafting Solutions: Bringing Ideas to Life, One Line at a Time. ✨ Let's transform challenges into digital possibilities with precision and creativity!",
         "🎨 Where Code Meets Creativity: Building Digital Experiences that Matter. 🌐 From intuitive interfaces to powerful backend systems, I create solutions that engage and inspire.",
         "💡 Innovating Beyond the Screen: Crafting Seamless Digital Journeys. 🌟 From concept to completion, let’s build the future, one pixel and one line of code at a time.",
     ],
-    titles: ["Full-Stack Developer - Frontend & Backend", "Mobile Developer"],
+    titles: ["Full-Stack Developer - Frontend & Backend & Mobile"],
     socialLinks: [
         {
             icon: <FaGithub />,
@@ -67,7 +67,7 @@ export const siteConfig = {
         },
         {
             icon: <FaLinkedin />,
-            url: "https://www.linkedin.com/in/javor-draskovic/",
+            url: "https://www.linkedin.com/in/borivoj-delic/",
         },
         // {
         //     icon: <FaSquareXTwitter />,
@@ -79,7 +79,7 @@ export const siteConfig = {
         // },
         {
             icon: <IoIosMail />,
-            url: "mailto:javordraskovic@gmail.com",
+            url: "mailto:borivojdelic@gmail.com",
         },
     ],
     sections: {
@@ -111,10 +111,12 @@ export const siteConfig = {
         ],
         aboutMe: `
             <p>
-                Hi! I'm Javor, a <strong>full-stack developer</strong> who started development in <strong>2016</strong>. Since then, I've built <strong>bunkering</strong>, <strong>e-learning</strong>, <strong>healthcare</strong>, <strong>fintech</strong>, and <strong>e-commerce sites</strong>. Whether it’s front-end finesse or back-end logic, I love bringing ideas to life on the web.
+            Hi! I'm Borivoj, a <strong>Full Stack Developer</strong> with a proven track record in building robust web applications, including <strong>SaaS platforms, CRMs, fintech solutions</strong>, and projects using <strong>React</strong>, <strong>Angular</strong>, <strong>Vue</strong>, <strong>Next.js</strong>, <strong>Nuxt.js</strong>, <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>Nest.js</strong>, <strong>PHP / Laravel</strong> and <strong>Python / Django</strong>.
+             I am proficient in <strong>JavaScript/TypeScript</strong>, <strong>React / Angular / Vue</strong>, <strong>Node.js</strong>, <strong>PHP</strong>, and <strong>Laravel</strong>.
+              I have a strong foundation in software development methodologies and also bring expertise as a DevOps engineer, with hands-on experience implementing CI/CD workflows using tools such as <b>GitHub Actions, Docker</b>, and more.
             </p>
             <p>
-                Let's connect—I'd love to help with your next <strong>website</strong> or <strong>API</strong> project!
+                Let's connect—I'd love to help with your <strong>application</strong>!
             </p>
         `,
         experiences: [
@@ -126,72 +128,78 @@ export const siteConfig = {
 <ul style="list-style: disc;">
   <li>Orchestrated a strategic upgrade of the web platform from React to Next.js, achieving a 20% improvement in SEO metrics and a remarkable 30% increase in page loading speed</li>
   <li>Utilized Python and Django to build robust web applications, creating dynamic features and managing database interactions efficiently. This involved developing RESTful APIs and implementing user authentication</li>
-  <li>Experienced in developing, customizing, and maintaining WordPress websites, including theme and plugin development, SEO optimization, and content management</li>
-  <li>Collaborated with a team of four to develop a new UI framework based on a stylized design system and React, streamlining the development process</li>
-  <li>Developed backend services using Symfony, enhancing API functionality and improving data handling efficiency. This included creating RESTful endpoints and implementing authentication and authorization mechanisms</li>                
+  <li>Experienced in developing, customizing, and maintaining Next.js + Strapi websites, including theme and plugin development, SEO optimization, and content management</li>
+  <li>Maintained Angular based project, Improved UI performance by reducing bundle size via lazy loading, tree-shaking, and code splitting</li>
 </ul>`,
             },
             {
-                company: "PopArt Studio",
+                company: "Vodafone",
                 position: "Full Stack Developer",
-                duration: "02/2021 - 12/2024",
+                duration: "10/2020 - 12/2024",
                 description:`
-<ul style="list-style: disc;">
-  <li>Engineered a responsive, single-page web app for mobile devices, integrating a five-year financial plan tool: increased user retention by 50% by enabling personalized financial goal tracking and decision-making based on user data</li>
-  <li>Built a digital twin of a building using 3D Mapbox, with real-time sensor data streaming in from AWS Athena</li>
-  <li>Developed a real estate platform with React, TypeScript, Google Maps API, and Tailwind CSS,featuring the Nearby Search API to help users easily find nearby public places for an enhanced experience</li>
-  <li>Integrated Firebase to host the application, eliminating the need for a traditional back-end</li>
-  <li>Enhanced the app with charts that shows all expenses, debt, and goals of the user through the next five years</li>
+<ul style="list-style: disc;"> 
+ <li>Developed a conversational PDF interface that integrates Pinecone, OpenAI, and Langchain to enable natural language-based interactions, allowing users to chat with documents, get answers, and discuss content</li>
+ <li>Streamlined a company's workflow by simplifying their Google services flow, turning several into more practical and easy-to-use solutions, tools, and integrations</li>
+ <li>Developed a microservices architecture using Node.js and TypeScript, implementing Event-Driven-Architectures with Apache Kafka, which improved system scalability and reliability</li>
+ <li>Transformed business ideas into technical solutions. Created products and features that increased productivity presented new possibilities and reduced manual processes</li>
+ <li>Developed a Slack chatbot integrating Google's Dialogflow platform, resulting in a bot that smoothly leads users through conversations while collecting relevant data points</li>
+ <li>Redesigned a front-end application fully, building on an existing system. Created dozens of flexible CMS components, allowing designers and editors to focus on creating new content and cutting down the need for developer time by a large portion</li>
+ <li>Built an image processing tool, compositing input images with various background images and outputting Google Slides presentations for rapid design prototyping</li>
+ <li>Created an interactive Slack workflow for downloading media from user-supplied links. Processed tens to hundreds of video and audio files daily, delivering them to a storage platform after applying various edits and tags</li>
 </ul>`,
             },
             {
-                company: "Bit studios",
+                company: "Wolftech Studio",
                 position: "Full Stack developer",
-                duration: "02/2019 - 01/2021",
+                duration: "07/2019 - 08/2020",
                 description: `
 <ul style="list-style: disc;">
-  <li>Contributed to migrating the LBS app with maps using OpenStreetMap from Backbone to React</li>
-  <li>Developed and deployed a new searching mechanism that utilizes ElasticSearch and Kafka Streams and improves querying performance by up to 100x</li>
-  <li>Worked in a team of 4 and developed a new UI framework based on a styled system, TypeScript and React</li>
-  <li>Acquired an in-depth understanding of the app's architecture and codebase, facilitating efficient troubleshooting, debugging, and maintenance of the application</li>
+  <li>Created a custom responsive drag and drop tool in React-connecting calendar, note, and appointment functions and saving users from using multiple applications</li>
+  <li>Implemented a car location tracking system that calculates potential banner revenue based on impressions for a React Native application</li>
+  <li>Supervised and trained a team of two front-end interns</li>
+  <li>Developed precise airspace tracking of drones, processing their attributes such as height, atmospheric pressure, or tilt for a web application</li>
+  <li>Created a secure flight scheduling application for pilots with a custom calendar component</li>
 </ul>`,
             },
             {
-                company: "Auvik networks",
+                company: "AltahonosStudio",
+                position: "Software Engineer",
+                duration: "04/2016 - 06/2019",
+                description: `
+<ul style="list-style: disc;">
+    <li>Contributed to the architecture and development of a teleconferencing app used for ERS for all major S&P 500 companies</li>
+    <li>Contributed to the design, architecture, and development of an app that helps government contractors bid on projects</li>
+    <li>Prototyped a Node.js-powered Angular app backed by a Gremlin-Cassandra database</li>
+    <li>Created an aggregator of financial Twitter streams to monitor and log social activity related to the company</li>
+    <li>Developed a mailing product that leverages AWS SES, S3, and SNS. It allows a higher-level interface over a lower-level infrastructure</li>
+    <li>Built a financial tracker that monitors short-selling positions not closed before the EOB</li>
+    <li>Developed a deal-tracking website with the Google Maps API to display current and upcoming deals on the map</li>
+</ul>`,
+            },
+            {
+                company: "Quarks Systems",
                 position: "Full Stack developer",
-                duration: "01/2017 - 01/2019",
+                duration: "02/2015 - 03/2016",
                 description: `
 <ul style="list-style: disc;">
-  <li>Developed the front-end mechanics to allow owners ease of use and maintenance</li>
-  <li>Built back-end REST and SOAP web services to allow integration from 3rd party websites</li>
-  <li>Created platform from scratch using React, Javascript, Typescript, Node.js, nest.js, Angular and Azure services</li>
-  <li>Implemented Back-end services to create RESTful APIs using Express.js and Nest.js and optimized the speed of the site</li>
-</ul>`,
-            },
-            {
-                company: "Essence",
-                position: "Frontend developer",
-                duration: "01/2016 - 12/2016",
-                description: `
-<ul style="list-style: disc;">
-  <li>Implemented a presentation layer (graphics, HTML5/CSS3/JavaScript).</li>
-  <li>Finalized responsive design while solving specific customer needs regarding display elements</li>
-  <li>Set up Linux server, Apache virtual host configurations, and DNS records</li>
-  <li>Created a highly customized content management framework in PHP 5</li>
-  <li>Maintained night/weekend status as per-issue support for the client</li>
+    <li>Developed a microservices architecture using Node.js and TypeScript, implementing Event-Driven-Architectures with Apache Kafka, which improved system scalability and reliability.</li>
+    <li>Transitioned the legacy app from jQuery-powered framework to MERN stack, enhancing performance and maintainability.</li>
+    <li>Scripted, built, and deployed pipelines, enhancing data processing efficiency and system reliability.</li>
+    <li>Developed an interactive and offline reporting engine, improving user engagement and data accessibility.</li>
+    <li>Created comprehensive documentation, streamlining onboarding and reducing training time.</li>
 </ul>`,
             },
             {
                 company: "Education - University of Belgrade",
-                position: "Bachelor of Science in Computer Science",
-                duration: "09/2011 - 06/2015",
+                position: "Bachelor's Degree - Computer Science",
+                duration: "10/2010 - 06/2014",
                 description: `
 <ul style="list-style: disc;"></ul>`,
             },
         ],
         projects: [
             {
-                title: "Javor Draskovic | Portfolio Website",
+                title: "Borivoj Delic | Portfolio Website",
                 description:
                     "This is my portfolio website. I built it to showcase my projects and skills. It is a static site built with Next.js, Tailwind CSS, and Shadcn/UI. I used the following technologies to build it:",
                 logo: "/logox.png",
@@ -214,7 +222,7 @@ export const siteConfig = {
                         name: "TypeScript",
                     },
                 ],
-                // link: "https://javordraskovic.vercel.com",
+                // link: "https://borivojdelic.vercel.com",
             },
             {
                 title: "Genzify AI",

@@ -1,14 +1,14 @@
-# Javor Draskovic's Portfolio
+# Borivoj Delic's Portfolio
 
-This is a personal portfolio website for Javor Draskovic, showcasing projects, blogs, and experiences as a full-stack developer. The site is built using Next.js, Tailwind CSS, and other modern web technologies.
+This is a personal portfolio website for Borivoj Delic, showcasing projects, blogs, and experiences as a full-stack developer. The site is built using Next.js, Tailwind CSS, and other modern web technologies.
 
-🔗 [Live Demo](https://javordraskovic.dev)
+🔗 [Live Demo](https://borivojdelic.vercel.app)
 
 ## Important Notice
 
 While this project's code is open source, please note the following:
 
-- **Attribution Required**: If you use this template for commercial purposes, attribution to Javor Draskovic (https://javordraskovic.dev) is required.
+- **Attribution Required**: If you use this template for commercial purposes, attribution to Borivoj Delic (https://borivojdelic.vercel.app) is required.
 - **Copyright Notice**: The following elements are copyrighted and NOT available for reuse:
   - All logos and branding elements
   - Blog content and articles
@@ -107,7 +107,7 @@ This project can be deployed on platforms like Vercel, Netlify, or any other hos
 When using this template commercially, please include the following attribution in your footer or credits page:
 
 ```
-Template designed by Javor Draskovic (https://javordraskovic.dev)
+Template designed by Borivoj Delic (https://borivojdelic.vercel.app)
 ```
 
 ## License
@@ -118,7 +118,7 @@ This project's code structure is available under a modified MIT License with add
 
 ## Contact
 
-For any inquiries, please contact Javor Draskovic at javordraskovic@gmail.com.
+For any inquiries, please contact Borivoj Delic at borivojdelic@gmail.com.
 
 ---
 

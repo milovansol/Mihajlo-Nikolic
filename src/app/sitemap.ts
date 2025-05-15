@@ -12,12 +12,12 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
 
     return [
         {
-            url: "https://javordraskovic.dev",
+            url: "https://borivojdelic.vercel.app",
             lastModified: new Date(),
         },
 
         // ...posts.map((post: TPost) => ({
-        //     url: `https://javordraskovic.dev/blogs/${post.slug}`,
+        //     url: `https://borivojdelic.vercel.app/blogs/${post.slug}`,
         //     lastModified: new Date(post.modified_gmt),
         //     priority: 0.8,
         // }))
