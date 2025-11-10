@@ -127,78 +127,59 @@ export const siteConfig = {
         `,
         experiences: [
             {
-                company: "Self Employed",
+                company: "Freelancer",
                 position: "Full Stack Developer",
                 duration: "01/2025 - Present",
                 description: `
 <ul style="list-style: disc;">
-  <li>Orchestrated a strategic upgrade of the web platform from React to Next.js, achieving a 20% improvement in SEO metrics and a remarkable 30% increase in page loading speed</li>
-  <li>Utilized Python and Django to build robust web applications, creating dynamic features and managing database interactions efficiently. This involved developing RESTful APIs and implementing user authentication</li>
-  <li>Experienced in developing, customizing, and maintaining Next.js + Strapi websites, including theme and plugin development, SEO optimization, and content management</li>
-  <li>Maintained Angular based project, Improved UI performance by reducing bundle size via lazy loading, tree-shaking, and code splitting</li>
+    <li>Orchestrated a strategic upgrade of the web platform from React to Next.js, resulting in a 20% improvement in SEO performance and a 30% increase in page loading speed</li>
+    <li>Utilized Python and Django to develop robust web applications with dynamic features, efficient database management, and secure user authentication through RESTful APIs</li>
+    <li>Developed, customized, and maintained Strapi-based CMS solutions, enabling flexible content management, API integration, and enhanced scalability for modern web projects</li>
+    <li>Engineered backend services using Symfony, improving API performance, data processing, and security through well-structured RESTful endpoints and authentication mechanisms</li>
 </ul>`,
             },
             {
-                company: "Vodafone",
-                position: "Full Stack Developer",
-                duration: "10/2020 - 12/2024",
+                company: "Devapo · Full-time",
+                position: "Lead Full Stack Developer",
+                duration: "03/2021 - 01/2025",
                 description:`
 <ul style="list-style: disc;"> 
- <li>Developed a conversational PDF interface that integrates Pinecone, OpenAI, and Langchain to enable natural language-based interactions, allowing users to chat with documents, get answers, and discuss content</li>
- <li>Streamlined a company's workflow by simplifying their Google services flow, turning several into more practical and easy-to-use solutions, tools, and integrations</li>
- <li>Developed a microservices architecture using Node.js and TypeScript, implementing Event-Driven-Architectures with Apache Kafka, which improved system scalability and reliability</li>
- <li>Transformed business ideas into technical solutions. Created products and features that increased productivity presented new possibilities and reduced manual processes</li>
- <li>Developed a Slack chatbot integrating Google's Dialogflow platform, resulting in a bot that smoothly leads users through conversations while collecting relevant data points</li>
- <li>Redesigned a front-end application fully, building on an existing system. Created dozens of flexible CMS components, allowing designers and editors to focus on creating new content and cutting down the need for developer time by a large portion</li>
- <li>Built an image processing tool, compositing input images with various background images and outputting Google Slides presentations for rapid design prototyping</li>
- <li>Created an interactive Slack workflow for downloading media from user-supplied links. Processed tens to hundreds of video and audio files daily, delivering them to a storage platform after applying various edits and tags</li>
+    <li>Led the architecture, development, and deployment of multiple scalable web applications, utilizing modern full stack frameworks and cloud technologies to deliver robust business solutions.</li>
+    <li>Managed cross-functional teams, driving agile development processes and mentoring junior engineers to consistently achieve project milestones ahead of schedule.</li>
+    <li>Updated the fintech project with Angular, Nest.js, Stripe, AWS and worked on the deployment process by CI/CD pipeline</li>
+    <li>Integrated the real-time socket communication and complex payment system</li>
+    <li>Actively participated in decision-making processes pertaining to various project-related topics and provided mentorship to junior developers, guiding them in issue resolution, code patterns, and overall best practices</li>
+    <li>Developed a Saas platform using React, Tailwind CSS, Node and MongoDB and built a custom UI component library utilizing React, TypeScript and Storybook</li>
+    <li>Developed and maintained backend services and APIs using Go, focusing on high performance and scalability.</li>
+    <li>Implemented RESTful APIs and microservices architectures leveraging Go’s concurrency features, including goroutines and channels, to handle multiple parallel operations efficiently.</li>
+    <li>Wrote clean, maintainable, and testable code, applying best practices such as proper error handling and context management.</li>
+    <li>Integrated Go services with databases like PostgreSQL and Redis, using Go ORM libraries and database drivers.</li>
+    <li>Collaborated in the design and development of distributed systems, applying RPC frameworks such as gRPC for interservice communication.</li>
+    <li>Implemented monitoring dashboard using DataDog</li>
+    <li>Optimize performance and eliminate bottlenecks in the system.</li>
+    <li>Developed a Saas platform using React, Tailwind CSS, Node and MongoDB and built a custom UI component library utilizing React, TypeScript and Storybook</li>
 </ul>`,
             },
             {
-                company: "Wolftech Studio",
+                company: "Appomart - IT company",
                 position: "Full Stack developer",
-                duration: "07/2019 - 08/2020",
+                duration: "10/2016 - 02/2021",
                 description: `
 <ul style="list-style: disc;">
-  <li>Created a custom responsive drag and drop tool in React-connecting calendar, note, and appointment functions and saving users from using multiple applications</li>
-  <li>Implemented a car location tracking system that calculates potential banner revenue based on impressions for a React Native application</li>
-  <li>Supervised and trained a team of two front-end interns</li>
-  <li>Developed precise airspace tracking of drones, processing their attributes such as height, atmospheric pressure, or tilt for a web application</li>
-  <li>Created a secure flight scheduling application for pilots with a custom calendar component</li>
-</ul>`,
-            },
-            {
-                company: "AltahonosStudio",
-                position: "Software Engineer",
-                duration: "04/2016 - 06/2019",
-                description: `
-<ul style="list-style: disc;">
-    <li>Contributed to the architecture and development of a teleconferencing app used for ERS for all major S&P 500 companies</li>
-    <li>Contributed to the design, architecture, and development of an app that helps government contractors bid on projects</li>
-    <li>Prototyped a Node.js-powered Angular app backed by a Gremlin-Cassandra database</li>
-    <li>Created an aggregator of financial Twitter streams to monitor and log social activity related to the company</li>
-    <li>Developed a mailing product that leverages AWS SES, S3, and SNS. It allows a higher-level interface over a lower-level infrastructure</li>
-    <li>Built a financial tracker that monitors short-selling positions not closed before the EOB</li>
-    <li>Developed a deal-tracking website with the Google Maps API to display current and upcoming deals on the map</li>
-</ul>`,
-            },
-            {
-                company: "Quarks Systems",
-                position: "Full Stack developer",
-                duration: "02/2015 - 03/2016",
-                description: `
-<ul style="list-style: disc;">
-    <li>Developed a microservices architecture using Node.js and TypeScript, implementing Event-Driven-Architectures with Apache Kafka, which improved system scalability and reliability.</li>
-    <li>Transitioned the legacy app from jQuery-powered framework to MERN stack, enhancing performance and maintainability.</li>
-    <li>Scripted, built, and deployed pipelines, enhancing data processing efficiency and system reliability.</li>
-    <li>Developed an interactive and offline reporting engine, improving user engagement and data accessibility.</li>
-    <li>Created comprehensive documentation, streamlining onboarding and reducing training time.</li>
+    <li>Refactored the existing code to improve the performance</li>
+    <li>Worked on the CI/CD pipeline by Git actions, Jenkins and Circle Cl</li>
+    <li>Utilized the MEAN stack (MongoDB, Express, AngularJS, and Node.js) and modern mobile-first UX designs and upgraded CRM platforms with Vue, Vuex, Laravel frameworks</li>
+    <li>Created Saas project by React, Redux, Node (Express), RESTful API and created a HOC architecture to reuse common GraphQL functionality for listing and filtering</li>
+    <li>Developed complex data visualization platform by React, D3 and Highcharts libraries</li>
+    <li>Worked on an Advertising platform that manages heavy assets using React, React hooks, Context API</li>
+    <li>Developed with Laravel eloquentORM, templates, Symfony Doctrine, twig blade</li>
+    <li>Worked on the Back-end of the Admin Portal by using Node.js/MongoDB Worked with Mocha, Jest, Cypress</li>
 </ul>`,
             },
             {
                 company: "Education - University of Belgrade",
                 position: "Bachelor's Degree - Computer Science",
-                duration: "10/2010 - 06/2014",
+                duration: "10/2012 - 06/2016",
                 description: `
 <ul style="list-style: disc;"></ul>`,
             },
