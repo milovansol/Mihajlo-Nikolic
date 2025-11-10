@@ -1,6 +1,6 @@
 Modified MIT License
 
-Copyright (c) 2024 Borivoj Delic
+Copyright (c) 2024 Mihajlo Nikolic
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -14,18 +14,18 @@ copies or substantial portions of the Software.
 
 2. Commercial Use Attribution Requirement:
    Any commercial use of the Software requires visible attribution to the original
-   author, Borivoj Delic (https://borivojdelic.vercel.app), in the form specified in the
+   author, Mihajlo Nikolic (https://mihajlonikolic.vercel.app), in the form specified in the
    project documentation.
 
 3. Content Restrictions:
    This license applies ONLY to the code structure and implementation. The
    following elements are NOT licensed for reuse and remain under exclusive
-   copyright of Borivoj Delic:
+   copyright of Mihajlo Nikolic:
    - All logos and branding elements
    - Blog content and articles
    - Personal information and copy text
    - Project descriptions and images
-   - Any other content specific to Borivoj Delic's portfolio
+   - Any other content specific to Mihajlo Nikolic's portfolio
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

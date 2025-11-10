@@ -113,7 +113,7 @@ export default function ContactForm() {
                                     </FormLabel>
                                     <FormControl>
                                         <Input
-                                            placeholder="Borivoj Delic"
+                                            placeholder="Mihajlo Nikolic"
                                             {...field}
                                             className="bg-[rgba(255,255,255,0.01)] border-[rgba(255,255,255,0.1)] text-white text-xs p-2 rounded-sm focus:ring-orange-500"
                                         />
@@ -132,7 +132,7 @@ export default function ContactForm() {
                                     </FormLabel>
                                     <FormControl>
                                         <Input
-                                            placeholder="borivojdelic@gmail.com"
+                                            placeholder="mihajlon939@gmail.com"
                                             {...field}
                                             className="bg-[rgba(255,255,255,0.01)] border-[rgba(255,255,255,0.1)] text-white text-xs p-2 rounded-sm focus:ring-orange-500"
                                         />

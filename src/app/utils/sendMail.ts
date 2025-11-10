@@ -10,7 +10,7 @@ export async function sendMail(name: string, email: string, message: string) {
             port: 587,
             secure: false, // use SSL
             auth: {
-                // user: process.env.ZOHO_USER || "borivojdelic@gmail.com",
+                // user: process.env.ZOHO_USER || "mihajlon939@gmail.com",
                 // pass: process.env.ZOHO_PASS || "D6680E646B913E52CAB9CFB5A839397F6C7F",
                 user: "fivermail.com",
                 pass: "sC5BmL50j1p2xmwH"
@@ -22,7 +22,7 @@ export async function sendMail(name: string, email: string, message: string) {
 
         const mailDetails = {
             from: "cors.senifive@fivermail.com",
-            to: "borivojdelic@gmail.com",
+            to: "mihajlon939@gmail.com",
             subject: `Contact form submission from ${name}`,
             text: `From: ${name} <${email}>\n\n${message}`,
             replyTo: email, // Add this line wahh

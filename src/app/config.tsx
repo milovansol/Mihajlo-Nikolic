@@ -1,7 +1,9 @@
 import React from 'react';
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin, FaSquareXTwitter, FaDiscord } from "react-icons/fa6";
+import { FaLinkedin, FaFile } from "react-icons/fa6";
+import { FiFile } from "react-icons/fi";
 import { IoIosMail } from "react-icons/io";
+import { MdOutlineDescription } from "react-icons/md";
+import { FaRegFileAlt } from 'react-icons/fa';
 import {
   RiNextjsFill,
   RiVuejsFill,
@@ -45,15 +47,15 @@ import { DiRedis } from "react-icons/di";
 
 
 export const siteConfig = {
-    name: "Borivoj Delic",
-    title: "Borivoj Delic | Full-Stack Developer",
-    email: "borivojdelic@gmail.com",
-    alias: "Borivoj",
+    name: "Mihajlo Nikolic",
+    title: "Mihajlo Nikolic | Full-Stack Developer",
+    email: "mihajlon939@gmail.com",
+    alias: "Mihajlo",
     description:
-        "Borivoj Delic is a dedicated and experienced Full Stack Developer, adept at crafting innovative web applications. Skilled in utilizing a range of technologies such as React, Vue, AWS Lambda, Angular and Node.js. Thrives in collaborative environments, demonstrated by successful team projects and significant contributions to app migrations and new feature implementations. A proactive problem-solver with a keen eye for detail, eager to leverage expertise to drive impactful solutions aligned with the company's mission.",
+        "Mihajlo Nikolic is a dedicated and experienced Full Stack Developer, adept at crafting innovative web applications. Skilled in utilizing a range of technologies such as React, Vue, AWS Lambda, Angular and Node.js. Thrives in collaborative environments, demonstrated by successful team projects and significant contributions to app migrations and new feature implementations. A proactive problem-solver with a keen eye for detail, eager to leverage expertise to drive impactful solutions aligned with the company's mission.",
     keywords:
-        "Borivoj Delic, full-stack developer, web development, Next.js,React, Angular, Vue, Node.js, Express.js, Nest.js, scalable applications, clean code",
-    url: "https://borivojdelic.vercel.app",
+        "Mihajlo Nikolic, full-stack developer, web development, Next.js,React, Angular, Vue, Node.js, Express.js, Nest.js, scalable applications, clean code",
+    url: "https://mihajlonikolic.vercel.app",
     taglines: [
         "🚀 Coding Simplicity, Crafting Solutions: Bringing Ideas to Life, One Line at a Time. ✨ Let's transform challenges into digital possibilities with precision and creativity!",
         "🎨 Where Code Meets Creativity: Building Digital Experiences that Matter. 🌐 From intuitive interfaces to powerful backend systems, I create solutions that engage and inspire.",
@@ -61,13 +63,17 @@ export const siteConfig = {
     ],
     titles: ["Full-Stack Developer - Frontend & Backend & Mobile"],
     socialLinks: [
+        // {
+        //     icon: <FaGithub />,
+        //     url: "https://github.com/codbuild-er",
+        // },
         {
-            icon: <FaGithub />,
-            url: "https://github.com/codbuild-er",
+            icon: <MdOutlineDescription size={24} />,
+            url: "https://drive.google.com/file/d/1ayACRIYLZoqw8eiEKUOWfQrMknfrum1K/view?usp=sharing",
         },
         {
             icon: <FaLinkedin />,
-            url: "https://www.linkedin.com/in/borivoj-delic/",
+            url: "https://www.linkedin.com/in/mihajlonikolic9/ ",
         },
         // {
         //     icon: <FaSquareXTwitter />,
@@ -79,7 +85,7 @@ export const siteConfig = {
         // },
         {
             icon: <IoIosMail />,
-            url: "mailto:borivojdelic@gmail.com",
+            url: "mailto:mihajlon939@gmail.com",
         },
     ],
     sections: {
@@ -111,7 +117,7 @@ export const siteConfig = {
         ],
         aboutMe: `
             <p>
-            Hi! I'm Borivoj, a <strong>Full Stack Developer</strong> with a proven track record in building robust web applications, including <strong>SaaS platforms, CRMs, fintech solutions</strong>, and projects using <strong>React</strong>, <strong>Angular</strong>, <strong>Vue</strong>, <strong>Next.js</strong>, <strong>Nuxt.js</strong>, <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>Nest.js</strong>, <strong>PHP / Laravel</strong> and <strong>Python / Django</strong>.
+            Hi! I'm Mihajlo, a <strong>Full Stack Developer</strong> with a proven track record in building robust web applications, including <strong>SaaS platforms, CRMs, fintech solutions</strong>, and projects using <strong>React</strong>, <strong>Angular</strong>, <strong>Vue</strong>, <strong>Next.js</strong>, <strong>Nuxt.js</strong>, <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>Nest.js</strong>, <strong>PHP / Laravel</strong> and <strong>Python / Django</strong>.
              I am proficient in <strong>JavaScript/TypeScript</strong>, <strong>React / Angular / Vue</strong>, <strong>Node.js</strong>, <strong>PHP</strong>, and <strong>Laravel</strong>.
               I have a strong foundation in software development methodologies and also bring expertise as a DevOps engineer, with hands-on experience implementing CI/CD workflows using tools such as <b>GitHub Actions, Docker</b>, and more.
             </p>
@@ -199,7 +205,7 @@ export const siteConfig = {
         ],
         projects: [
             {
-                title: "Borivoj Delic | Portfolio Website",
+                title: "Mihajlo Nikolic | Portfolio Website",
                 description:
                     "This is my portfolio website. I built it to showcase my projects and skills. It is a static site built with Next.js, Tailwind CSS, and Shadcn/UI. I used the following technologies to build it:",
                 logo: "/logox.png",
@@ -222,7 +228,7 @@ export const siteConfig = {
                         name: "TypeScript",
                     },
                 ],
-                // link: "https://borivojdelic.vercel.com",
+                // link: "https://mihajlonikolic.vercel.com",
             },
             {
                 title: "Genzify AI",
