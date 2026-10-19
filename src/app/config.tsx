@@ -189,7 +189,7 @@ export const siteConfig = {
             {
                 company: "Education - University of Belgrade, Serbia",
                 position: "Bachelor of Science in Information Technology",
-                duration: "2009 - 2013",
+                duration: "10/2012 - 06/2016",
                 description: `
 <ul style="list-style: disc;"></ul>`,
             },
