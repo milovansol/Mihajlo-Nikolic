@@ -49,7 +49,6 @@ export default function Technologies() {
                                     <TechnologyItem
                                         key={index}
                                         technology={technology}
-                                        className={index === 27 ? 'md:hidden lg:flex' : ''}
                                     />
                                 );
                             })}

@@ -1,67 +1,80 @@
 import React from 'react';
-import { FaLinkedin, FaFile } from "react-icons/fa6";
-import { FiFile } from "react-icons/fi";
+import { FaLinkedin } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { MdOutlineDescription } from "react-icons/md";
-import { FaRegFileAlt } from 'react-icons/fa';
 import {
   RiNextjsFill,
-  RiVuejsFill,
-  RiAngularjsFill,
   RiTailwindCssFill, RiWordpressFill, RiOpenaiFill,
 } from 'react-icons/ri';
 import {
-  SiStrapi,
-  SiTypeorm,
-  SiNestjs,
-  SiJest,
-  SiCypress,
-  SiStorybook,
   SiTypescript,
   SiShadcnui,
   SiWoocommerce,
   SiReact,
-  SiSupabase,
-  SiExpress,
-  SiPuppeteer,
   SiHtml5,
   SiCss3,
   SiJavascript,
   SiNodedotjs,
-  SiPhp,
   SiPostgresql,
   SiMysql,
   SiMongodb,
   SiGraphql,
-  SiFramer,
-  SiThreedotjs,
-  SiElectron,
   SiDocker,
-  SiDrizzle,
-  SiMui,
-  SiGit, SiPrisma,
+  SiPrisma,
+  SiDotnet,
+  SiCsharp,
+  SiAnthropic,
+  SiLangchain,
+  SiHuggingface,
+  SiPython,
+  SiFlutter,
+  SiAndroid,
+  SiFirebase,
+  SiExpo,
+  SiAmazonwebservices,
+  SiMicrosoftazure,
+  SiKubernetes,
+  SiGithubactions,
+  SiJenkins,
+  SiTerraform,
+  SiLinux,
+  SiMicrosoftsqlserver,
+  SiElasticsearch,
+  SiRedis,
 } from 'react-icons/si';
 import { GrGraphQl } from "react-icons/gr";
-import { TbApi, TbBrandReactNative } from "react-icons/tb";
-import { DiRedis } from "react-icons/di";
+import {
+  TbApi,
+  TbBrandReactNative,
+  TbDatabaseSearch,
+  TbRobot,
+  TbPrompt,
+  TbAdjustmentsBolt,
+  TbInfinity,
+  TbPlugConnected,
+} from "react-icons/tb";
 
 
 export const siteConfig = {
     name: "Mihajlo Nikolic",
-    title: "Mihajlo Nikolic | Full-Stack Developer",
+    title: "Mihajlo Nikolic | Software Engineering Consultant & AI Engineer",
     email: "mihajlon939@gmail.com",
     alias: "Mihajlo",
     description:
-        "Mihajlo Nikolic is a dedicated and experienced Full Stack Developer, adept at crafting innovative web applications. Skilled in utilizing a range of technologies such as React, Vue, AWS Lambda, Angular and Node.js. Thrives in collaborative environments, demonstrated by successful team projects and significant contributions to app migrations and new feature implementations. A proactive problem-solver with a keen eye for detail, eager to leverage expertise to drive impactful solutions aligned with the company's mission.",
+        "Mihajlo Nikolic is a Software Engineering Consultant and AI Application Specialist with 10 years of experience delivering scalable web platforms, intelligent business applications, and cloud-native software solutions. He architects modern full stack systems with React, Next.js, Node.js, and .NET, and implements AI-powered solutions through LLM integration, prompt engineering, Retrieval-Augmented Generation (RAG), AI workflow orchestration, and model fine-tuning.",
     keywords:
-        "Mihajlo Nikolic, full-stack developer, web development, Next.js,React, Angular, Vue, Node.js, Express.js, Nest.js, scalable applications, clean code",
+        "Mihajlo Nikolic, software engineering consultant, AI engineer, AI application specialist, full stack developer, LLM integration, RAG, LangChain, LangGraph, OpenAI, Claude, prompt engineering, React, Next.js, Node.js, .NET, ASP.NET Core, TypeScript, AWS, Azure, Docker, Kubernetes, Serbia",
     url: "https://mihajlonikolic.vercel.app",
     taglines: [
-        "🚀 Coding Simplicity, Crafting Solutions: Bringing Ideas to Life, One Line at a Time. ✨ Let's transform challenges into digital possibilities with precision and creativity!",
-        "🎨 Where Code Meets Creativity: Building Digital Experiences that Matter. 🌐 From intuitive interfaces to powerful backend systems, I create solutions that engage and inspire.",
-        "💡 Innovating Beyond the Screen: Crafting Seamless Digital Journeys. 🌟 From concept to completion, let’s build the future, one pixel and one line of code at a time.",
+        "🚀 Building scalable web platforms and cloud-native software, from architecture to production. ✨ Let's turn your ideas into reliable, high-performing products!",
+        "🤖 Bringing AI into real business workflows: LLM integration, RAG pipelines, AI agents, and fine-tuned models. 🌐 Automate processes, unlock knowledge, and engage customers.",
+        "💡 10 years of full stack engineering with React, Next.js, Node.js, and .NET. 🌟 Let's define your technical roadmap and deliver it, one milestone at a time.",
     ],
-    titles: ["Full-Stack Developer - Frontend & Backend & Mobile"],
+    titles: [
+        "Software Engineering Consultant",
+        "AI Application Specialist",
+        "Digital Solutions Developer",
+    ],
     socialLinks: [
         // {
         //     icon: <FaGithub />,
@@ -117,9 +130,11 @@ export const siteConfig = {
         ],
         aboutMe: `
             <p>
-            Hi! I'm Mihajlo, a <strong>Full Stack Developer</strong> with a proven track record in building robust web applications, including <strong>SaaS platforms, CRMs, fintech solutions</strong>, and projects using <strong>React</strong>, <strong>Angular</strong>, <strong>Vue</strong>, <strong>Next.js</strong>, <strong>Nuxt.js</strong>, <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>Nest.js</strong>, <strong>PHP / Laravel</strong> and <strong>Python / Django</strong>.
-             I am proficient in <strong>JavaScript/TypeScript</strong>, <strong>React / Angular / Vue</strong>, <strong>Node.js</strong>, <strong>PHP</strong>, and <strong>Laravel</strong>.
-              I have a strong foundation in software development methodologies and also bring expertise as a DevOps engineer, with hands-on experience implementing CI/CD workflows using tools such as <b>GitHub Actions, Docker</b>, and more.
+            Hi! I'm Mihajlo, a <strong>Software Engineering Consultant</strong> and <strong>AI Engineer</strong> from Serbia with <strong>10 years</strong> of experience delivering <strong>scalable web platforms</strong>, <strong>intelligent business applications</strong>, and <strong>cloud-native software solutions</strong> for clients across finance, healthcare, and logistics.
+             I architect modern full stack systems with <strong>React</strong>, <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Node.js</strong>, <strong>C# / .NET 8</strong>, and <strong>ASP.NET Core</strong>, and guide technical delivery across the complete development lifecycle.
+            </p>
+            <p>
+             I build AI-powered solutions through <strong>LLM integration</strong> (<strong>OpenAI</strong>, <strong>Claude</strong>), <strong>prompt engineering</strong>, <strong>Retrieval-Augmented Generation (RAG)</strong> with <strong>LangChain</strong> and <strong>LangGraph</strong>, <strong>AI agents</strong>, <strong>MCP</strong>, and <strong>model fine-tuning</strong>, and ship them on <b>AWS, Azure, Docker, and Kubernetes</b> with automated CI/CD pipelines.
             </p>
             <p>
                 Let's connect—I'd love to help with your <strong>application</strong>!
@@ -127,59 +142,54 @@ export const siteConfig = {
         `,
         experiences: [
             {
-                company: "Freelancer",
-                position: "Full Stack Developer",
-                duration: "01/2025 - Present",
+                company: "Self-Employed",
+                position: "Independent Software Consultant | AI Engineer",
+                duration: "03/2025 - Present",
                 description: `
 <ul style="list-style: disc;">
-    <li>Orchestrated a strategic upgrade of the web platform from React to Next.js, resulting in a 20% improvement in SEO performance and a 30% increase in page loading speed</li>
-    <li>Utilized Python and Django to develop robust web applications with dynamic features, efficient database management, and secure user authentication through RESTful APIs</li>
-    <li>Developed, customized, and maintained Strapi-based CMS solutions, enabling flexible content management, API integration, and enhanced scalability for modern web projects</li>
-    <li>Engineered backend services using Symfony, improving API performance, data processing, and security through well-structured RESTful endpoints and authentication mechanisms</li>
+    <li>Integrate OpenAI, Claude, and LLM-powered capabilities into enterprise systems to automate business processes, knowledge management, and customer engagement</li>
+    <li>Design and deploy Retrieval-Augmented Generation (RAG) solutions using LangChain, LangGraph, vector databases, and semantic search technologies</li>
+    <li>Manage project orchestration, prompt engineering, AI model evaluation, fine-tuning, and production deployment across multiple client engagements</li>
+    <li>Develop scalable full stack applications using React, Node.js, .NET, and Python while implementing secure cloud architectures</li>
+    <li>Collaborate directly with founders and executive stakeholders to define technical roadmaps, delivery milestones, and software modernization strategies</li>
 </ul>`,
             },
             {
                 company: "Devapo · Full-time",
-                position: "Lead Full Stack Developer",
+                position: "Senior Full Stack Engineer",
                 duration: "03/2021 - 01/2025",
                 description:`
-<ul style="list-style: disc;"> 
-    <li>Led the architecture, development, and deployment of multiple scalable web applications, utilizing modern full stack frameworks and cloud technologies to deliver robust business solutions.</li>
-    <li>Managed cross-functional teams, driving agile development processes and mentoring junior engineers to consistently achieve project milestones ahead of schedule.</li>
-    <li>Updated the fintech project with Angular, Nest.js, Stripe, AWS and worked on the deployment process by CI/CD pipeline</li>
-    <li>Integrated the real-time socket communication and complex payment system</li>
-    <li>Actively participated in decision-making processes pertaining to various project-related topics and provided mentorship to junior developers, guiding them in issue resolution, code patterns, and overall best practices</li>
-    <li>Developed a Saas platform using React, Tailwind CSS, Node and MongoDB and built a custom UI component library utilizing React, TypeScript and Storybook</li>
-    <li>Developed and maintained backend services and APIs using Go, focusing on high performance and scalability.</li>
-    <li>Implemented RESTful APIs and microservices architectures leveraging Go’s concurrency features, including goroutines and channels, to handle multiple parallel operations efficiently.</li>
-    <li>Wrote clean, maintainable, and testable code, applying best practices such as proper error handling and context management.</li>
-    <li>Integrated Go services with databases like PostgreSQL and Redis, using Go ORM libraries and database drivers.</li>
-    <li>Collaborated in the design and development of distributed systems, applying RPC frameworks such as gRPC for interservice communication.</li>
-    <li>Implemented monitoring dashboard using DataDog</li>
-    <li>Optimize performance and eliminate bottlenecks in the system.</li>
-    <li>Developed a Saas platform using React, Tailwind CSS, Node and MongoDB and built a custom UI component library utilizing React, TypeScript and Storybook</li>
+<ul style="list-style: disc;">
+    <li>Designed and delivered enterprise web applications using React, ASP.NET Core, Node.js, and TypeScript for clients across finance, healthcare, and logistics</li>
+    <li>Developed secure REST APIs and scalable backend services supporting cloud-hosted SaaS platforms</li>
+    <li>Improved application scalability through microservice architecture, database optimization, and performance tuning initiatives</li>
+    <li>Worked closely with UX designers, QA engineers, DevOps specialists, and product managers to deliver high-quality software solutions</li>
+    <li>Automated deployment pipelines using Docker, Kubernetes, GitHub Actions, and Infrastructure as Code practices</li>
+    <li>Conducted technical mentoring, architecture reviews, and code quality assessments to strengthen engineering standards</li>
 </ul>`,
             },
             {
-                company: "Appomart - IT company",
-                position: "Full Stack developer",
-                duration: "10/2016 - 02/2021",
+                company: "Appomart · Full-time",
+                position: "Full Stack Software Engineer",
+                duration: "01/2017 - 01/2021",
                 description: `
 <ul style="list-style: disc;">
-    <li>Refactored the existing code to improve the performance</li>
-    <li>Worked on the CI/CD pipeline by Git actions, Jenkins and Circle Cl</li>
-    <li>Utilized the MEAN stack (MongoDB, Express, AngularJS, and Node.js) and modern mobile-first UX designs and upgraded CRM platforms with Vue, Vuex, Laravel frameworks</li>
-    <li>Created Saas project by React, Redux, Node (Express), RESTful API and created a HOC architecture to reuse common GraphQL functionality for listing and filtering</li>
-    <li>Developed complex data visualization platform by React, D3 and Highcharts libraries</li>
-    <li>Worked on an Advertising platform that manages heavy assets using React, React hooks, Context API</li>
-    <li>Developed with Laravel eloquentORM, templates, Symfony Doctrine, twig blade</li>
-    <li>Worked on the Back-end of the Admin Portal by using Node.js/MongoDB Worked with Mocha, Jest, Cypress</li>
+    <li>Built modern business applications using React, Next.js, .NET Core, and SQL Server for commercial and enterprise clients</li>
+    <li>Engineered RESTful APIs and backend services that improved interoperability between internal systems and third-party platforms</li>
+    <li>Collaborated with cross-functional teams to deliver scalable digital products using Agile software development methodologies</li>
+    <li>Refactored legacy applications into modular architectures, improving maintainability and long-term scalability</li>
+    <li>Optimized application performance through efficient database design, caching strategies, and backend enhancements</li>
+    <li>Developed and maintained custom web applications using C#, ASP.NET MVC, JavaScript, HTML5, CSS3, and SQL Server</li>
+    <li>Built reusable frontend components and backend modules that accelerated software delivery and improved code consistency</li>
+    <li>Designed database schemas, optimized SQL queries, and enhanced application performance to support growing business requirements</li>
+    <li>Integrated payment gateways, authentication providers, and third-party APIs into enterprise business systems</li>
+    <li>Worked with senior developers, QA engineers, and project managers throughout Agile development cycles to deliver reliable software</li>
 </ul>`,
             },
             {
-                company: "Education - University of Belgrade",
-                position: "Bachelor's Degree - Computer Science",
-                duration: "10/2012 - 06/2016",
+                company: "Education - University of Belgrade, Serbia",
+                position: "Bachelor of Science in Information Technology",
+                duration: "2009 - 2013",
                 description: `
 <ul style="list-style: disc;"></ul>`,
             },
@@ -317,9 +327,19 @@ export const siteConfig = {
         technologies: {
             main: [
                 {
-                    name: "Next.js",
-                    icon: <RiNextjsFill className="text-[#FFF]" />,
-                    description: "React framework",
+                    name: "C#",
+                    icon: <SiCsharp className="text-[#9B4F96]" />,
+                    description: "Typed .NET language",
+                },
+                {
+                    name: ".NET 8 / ASP.NET Core",
+                    icon: <SiDotnet className="text-[#512BD4]" />,
+                    description: "Backend framework",
+                },
+                {
+                    name: "Node.js",
+                    icon: <SiNodedotjs className="text-[#339933]" />,
+                    description: "JavaScript runtime",
                 },
                 {
                     name: "React",
@@ -327,24 +347,9 @@ export const siteConfig = {
                     description: "JavaScript UI library",
                 },
                 {
-                  name: "Angular",
-                  icon: <RiAngularjsFill className="text-[#DD0031]" />,
-                  description: "Typescript UI Framework",
-                },
-                {
-                    name: "Vue",
-                    icon: <RiVuejsFill className="text-[#42b883]" />,
-                    description: "JavaScript UI Framework",
-                },
-                {
-                    name: "Tailwind CSS",
-                    icon: <RiTailwindCssFill className="text-[#06B6D4]" />,
-                    description: "A CSS framework",
-                },
-                {
-                    name: "JavaScript",
-                    icon: <SiJavascript className="text-[#f5f800]" />,
-                    description: "Javascript",
+                    name: "Next.js",
+                    icon: <RiNextjsFill className="text-[#FFF]" />,
+                    description: "React framework",
                 },
                 {
                     name: "TypeScript",
@@ -352,78 +357,143 @@ export const siteConfig = {
                     description: "Typed Javascript",
                 },
                 {
-                    name: "Git",
-                    icon: <SiGit className="text-[#F05032]" />,
-                    description: "A version control system",
+                    name: "OpenAI API",
+                    icon: <RiOpenaiFill className="text-[#FFF]" />,
+                    description: "LLM integration",
                 },
                 {
-                    name: "TypeORM",
-                    icon: <SiTypeorm className="text-[#4a5b77]" />,
-                    description: "An ORM for databases",
+                    name: "Claude API",
+                    icon: <SiAnthropic className="text-[#D97757]" />,
+                    description: "LLM integration",
                 },
                 {
-                    name: "Strapi",
-                    icon: <SiStrapi className="text-[#21759B]" />,
-                    description: "A CMS for websites",
+                    name: "LangChain / LangGraph",
+                    icon: <SiLangchain className="text-[#FFF]" />,
+                    description: "LLM orchestration",
                 },
                 {
-                    name: "Express.js",
-                    icon: <SiExpress className="text-[#FFF]" />, // ORIGINALLY BLACK
-                    description: "A Node.js framework",
+                    name: "RAG",
+                    icon: <TbDatabaseSearch className="text-[#10B981]" />,
+                    description: "Retrieval-Augmented Generation",
                 },
                 {
-                    name: "Nest.js",
-                    icon: <SiNestjs className="text-[#E0234E]" />, // ORIGINALLY BLACK
-                    description: "A Node.js framework",
+                    name: "AI Agents & MCP",
+                    icon: <TbRobot className="text-[#A78BFA]" />,
+                    description: "Agentic workflows",
                 },
                 {
-                    name: "Puppeteer",
-                    icon: <SiPuppeteer className="text-[#7a56f1]" />,
-                    description: "A library for browser automation",
+                    name: "Docker",
+                    icon: <SiDocker className="text-[#2496ED]" />,
+                    description: "Containerization",
                 },
                 {
-                    name: "Unit testing",
-                    icon: <SiJest className="text-[#C21325]" />,
-                    description: "Writing Unit Test",
+                    name: "Kubernetes",
+                    icon: <SiKubernetes className="text-[#326CE5]" />,
+                    description: "Container orchestration",
                 },
                 {
-                    name: "End-to-End testing",
-                    icon: <SiCypress className="text-[#172A4D]" />,
-                    description: "Writing E2E Test",
+                    name: "AWS",
+                    icon: <SiAmazonwebservices className="text-[#FF9900]" />,
+                    description: "Cloud platform",
+                },
+                {
+                    name: "Microsoft Azure",
+                    icon: <SiMicrosoftazure className="text-[#0078D4]" />,
+                    description: "Cloud platform",
                 },
             ],
             other: [
-                {
-                    name: "HTML5",
-                    icon: <SiHtml5 className="text-[#E34F26]" />,
-                },
-                {
-                    name: "CSS",
-                    icon: <SiCss3 className="text-[#009df7]" />,
-                },
                 {
                     name: "JavaScript",
                     icon: <SiJavascript className="text-[#F7DF1E]" />,
                 },
                 {
-                    name: "NodeJS",
-                    icon: <SiNodedotjs className="text-[#339933]" />,
+                    name: "HTML5",
+                    icon: <SiHtml5 className="text-[#E34F26]" />,
                 },
                 {
-                    name: "PHP",
-                    icon: <SiPhp className="text-[#5d6dad]" />,
+                    name: "CSS3",
+                    icon: <SiCss3 className="text-[#009df7]" />,
+                },
+                {
+                    name: "Python",
+                    icon: <SiPython className="text-[#3776AB]" />,
+                },
+                {
+                    name: "RESTful API",
+                    icon: <TbApi className="text-[#FF5733]" />,
+                },
+                {
+                    name: "GraphQL",
+                    icon: <SiGraphql className="text-[#E10098]" />,
+                },
+                {
+                    name: "LlamaIndex",
+                    icon: <TbPlugConnected className="text-[#FFF]" />,
+                },
+                {
+                    name: "Hugging Face",
+                    icon: <SiHuggingface className="text-[#FFD21E]" />,
+                },
+                {
+                    name: "Prompt Engineering",
+                    icon: <TbPrompt className="text-[#F472B6]" />,
+                },
+                {
+                    name: "Model Fine-Tuning",
+                    icon: <TbAdjustmentsBolt className="text-[#F59E0B]" />,
+                },
+                {
+                    name: "Flutter",
+                    icon: <SiFlutter className="text-[#02569B]" />,
+                },
+                {
+                    name: "React Native",
+                    icon: <TbBrandReactNative className="text-[#61DAFB]" />,
+                },
+                {
+                    name: "Android SDK",
+                    icon: <SiAndroid className="text-[#3DDC84]" />,
+                },
+                {
+                    name: "Firebase",
+                    icon: <SiFirebase className="text-[#FFCA28]" />,
+                },
+                {
+                    name: "Expo",
+                    icon: <SiExpo className="text-[#FFF]" />,
+                },
+                {
+                    name: "GitHub Actions",
+                    icon: <SiGithubactions className="text-[#2088FF]" />,
+                },
+                {
+                    name: "Jenkins",
+                    icon: <SiJenkins className="text-[#D24939]" />,
+                },
+                {
+                    name: "Terraform",
+                    icon: <SiTerraform className="text-[#7B42BC]" />,
+                },
+                {
+                    name: "Linux",
+                    icon: <SiLinux className="text-[#FCC624]" />,
+                },
+                {
+                    name: "CI/CD Pipelines",
+                    icon: <TbInfinity className="text-[#22D3EE]" />,
+                },
+                {
+                    name: "PostgreSQL",
+                    icon: <SiPostgresql className="text-[#336791]" />,
+                },
+                {
+                    name: "SQL Server",
+                    icon: <SiMicrosoftsqlserver className="text-[#CC2927]" />,
                 },
                 {
                     name: "MySQL",
                     icon: <SiMysql className="text-[#5798ca]" />,
-                },
-                {
-                    name: "PostgresSQL",
-                    icon: <SiPostgresql className="text-[#336791]" />,
-                },
-                {
-                    name: "Supabase",
-                    icon: <SiSupabase className="text-[#0084d4]" />,
                 },
                 {
                     name: "MongoDB",
@@ -431,47 +501,11 @@ export const siteConfig = {
                 },
                 {
                     name: "Redis",
-                    icon: <DiRedis className="text-[#DC382D]" />,
+                    icon: <SiRedis className="text-[#DC382D]" />,
                 },
                 {
-                    name: "GraphQL",
-                    icon: <SiGraphql className="text-[#E10098]" />,
-                },
-                {
-                    name: "RESTful API",
-                    icon: <TbApi className="text-[#FF5733]" />,
-                },
-                {
-                    name: "UI Documentation",
-                    icon: <SiStorybook className="text-[#FF4785]" />,
-                },
-                {
-                    name: "Three.js",
-                    icon: <SiThreedotjs className="text-[#FFF]" />, // ORIGINALLY BLACK
-                },
-                {
-                    name: "WooCommerce",
-                    icon: <SiWoocommerce className="text-[#96588A]" />,
-                },
-                {
-                    name: "React Native",
-                    icon: <TbBrandReactNative className="text-[#61DAFB]" />,
-                },
-                {
-                    name: "Electron",
-                    icon: <SiElectron className="text-[#47848F]" />,
-                },
-                {
-                    name: "Docker",
-                    icon: <SiDocker className="text-[#2496ED]" />,
-                },
-                {
-                    name: "Shadcn/UI",
-                    icon: <SiShadcnui className="text-[#FFF]" />,
-                },
-                {
-                    name: "Drizzle",
-                    icon: <SiDrizzle className="text-[#00A7E1]" />,
+                    name: "Elasticsearch",
+                    icon: <SiElasticsearch className="text-[#00BFB3]" />,
                 },
             ],
         },

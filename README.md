@@ -1,6 +1,6 @@
 # Mihajlo Nikolic's Portfolio
 
-This is a personal portfolio website for Mihajlo Nikolic, showcasing projects, blogs, and experiences as a full-stack developer. The site is built using Next.js, Tailwind CSS, and other modern web technologies.
+This is a personal portfolio website for Mihajlo Nikolic, showcasing experience as a Software Engineering Consultant and AI Engineer. The site is built using Next.js, Tailwind CSS, and other modern web technologies.
 
 🔗 [Live Demo](https://mihajlonikolic.vercel.app)
 
