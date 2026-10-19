@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { MdOutlineDescription } from "react-icons/md";
 import {
@@ -76,17 +76,17 @@ export const siteConfig = {
         "Digital Solutions Developer",
     ],
     socialLinks: [
-        // {
-        //     icon: <FaGithub />,
-        //     url: "https://github.com/codbuild-er",
-        // },
+        {
+            icon: <FaGithub />,
+            url: "https://github.com/code-buildo",
+        },
         {
             icon: <MdOutlineDescription size={24} />,
             url: "https://drive.google.com/file/d/1ayACRIYLZoqw8eiEKUOWfQrMknfrum1K/view?usp=sharing",
         },
         {
             icon: <FaLinkedin />,
-            url: "https://www.linkedin.com/in/mihajlonikolic9/ ",
+            url: "https://www.linkedin.com/in/mihajlonikolic9",
         },
         // {
         //     icon: <FaSquareXTwitter />,
