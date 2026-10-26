@@ -1,7 +1,6 @@
-import { siteConfig } from "@/app/config";
 import SectionLabel from "./SectionLabel";
 import MotionTag from "./MotionTag";
-import AboutStats from "./AboutStats";
+import AboutBento from "./AboutBento";
 import { slideInFromRight } from "../utils/motion";
 
 export default function AboutMe() {
@@ -11,19 +10,14 @@ export default function AboutMe() {
             variants={slideInFromRight(0.9)}
             initial="hidden"
             animate="visible"
-            className="lg:pl-6"
+            className="lg:pl-6 w-full min-w-0"
         >
             <section
                 id="about-me"
                 className="w-full flex flex-wrap justify-center lg:justify-start mb-8 lg:mb-12"
             >
                 <SectionLabel label="ABOUT ME" />
-                <div
-                    dangerouslySetInnerHTML={{
-                        __html: siteConfig.sections.aboutMe,
-                    }}
-                />
-                <AboutStats />
+                <AboutBento />
             </section>
         </MotionTag>
     );

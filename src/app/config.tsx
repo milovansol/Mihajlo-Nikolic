@@ -80,6 +80,35 @@ export const siteConfig = {
         { value: 3, suffix: "", label: "Industries served" },
         { value: 40, suffix: "+", label: "Technologies" },
     ],
+    bento: {
+        location: "Serbia",
+        timezone: "Central European Time",
+        industries: ["Finance", "Healthcare", "Logistics"],
+        aiToolkit: [
+            "OpenAI API",
+            "Claude API",
+            "LangChain / LangGraph",
+            "RAG",
+            "AI Agents & MCP",
+            "Model Fine-Tuning",
+            "Prompt Engineering",
+            "Hugging Face",
+        ],
+        coreStack: [
+            "C#",
+            ".NET 8 / ASP.NET Core",
+            "React",
+            "Next.js",
+            "TypeScript",
+            "Node.js",
+            "Python",
+            "Docker",
+            "Kubernetes",
+            "AWS",
+            "Microsoft Azure",
+            "PostgreSQL",
+        ],
+    },
     socialLinks: [
         {
             icon: <FaGithub />,
@@ -140,9 +169,6 @@ export const siteConfig = {
             </p>
             <p>
              I build AI-powered solutions through <strong>LLM integration</strong> (<strong>OpenAI</strong>, <strong>Claude</strong>), <strong>prompt engineering</strong>, <strong>Retrieval-Augmented Generation (RAG)</strong> with <strong>LangChain</strong> and <strong>LangGraph</strong>, <strong>AI agents</strong>, <strong>MCP</strong>, and <strong>model fine-tuning</strong>, and ship them on <b>AWS, Azure, Docker, and Kubernetes</b> with automated CI/CD pipelines.
-            </p>
-            <p>
-                Let's connect—I'd love to help with your <strong>application</strong>!
             </p>
         `,
         experiences: [
