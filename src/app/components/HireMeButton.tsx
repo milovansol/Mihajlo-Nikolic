@@ -7,9 +7,9 @@ import { slideInFromLeft, slideInFromTop } from "../utils/motion";
 import MotionTag from "./MotionTag";
 
 const gradients = [
-    "radial-gradient(transparent, transparent, #A07CFE, #FE8FB5, #FFBE7B, transparent, transparent)",
-    "radial-gradient(transparent, transparent, #FE8FB5, #FFBE7B, #A07CFE, transparent, transparent)",
-    "radial-gradient(transparent, transparent, #FFBE7B, #A07CFE, #FE8FB5, transparent, transparent)",
+    "radial-gradient(transparent, transparent, #FCD34D, #F59E0B, #F43F5E, transparent, transparent)",
+    "radial-gradient(transparent, transparent, #F59E0B, #F43F5E, #FCD34D, transparent, transparent)",
+    "radial-gradient(transparent, transparent, #F43F5E, #FCD34D, #F59E0B, transparent, transparent)",
 ];
 
 const email = siteConfig.socialLinks.find((link) =>

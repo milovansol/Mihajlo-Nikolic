@@ -21,16 +21,16 @@ export default function ExperienceCard({
             {/* Timeline line and dot */}
             <span
                 aria-hidden
-                className="absolute left-[7px] top-5 bottom-0 w-px bg-gradient-to-b from-pink-500/60 via-purple-500/30 to-transparent group-last/exp:hidden"
+                className="absolute left-[7px] top-5 bottom-0 w-px bg-gradient-to-b from-accent-2/60 via-accent-3/30 to-transparent group-last/exp:hidden"
             />
             <span
                 aria-hidden
-                className="absolute left-0 top-[18px] flex h-[15px] w-[15px] items-center justify-center rounded-full border border-pink-400/60 bg-background"
+                className="absolute left-0 top-[18px] flex h-[15px] w-[15px] items-center justify-center rounded-full border border-accent-2/60 bg-background"
             >
                 {isCurrent && (
-                    <span className="absolute inset-0 rounded-full bg-pink-500/40 animate-ping" />
+                    <span className="absolute inset-0 rounded-full bg-accent-2/40 animate-ping" />
                 )}
-                <span className="h-[7px] w-[7px] rounded-full bg-gradient-to-br from-orange-400 to-purple-500 shadow-[0_0_12px_rgba(236,72,153,0.9)]" />
+                <span className="h-[7px] w-[7px] rounded-full bg-gradient-to-br from-accent-1 to-accent-3 shadow-[0_0_12px_rgb(var(--accent-2)/0.9)]" />
             </span>
 
             <SpotlightCard className="p-4 lg:p-5">

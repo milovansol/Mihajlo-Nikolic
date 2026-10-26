@@ -81,7 +81,7 @@ export default function TableOfContents() {
                         <hr
                             className={`w-8 h-[1px] transition-all duration-300 ${
                                 activeSection === section.id
-                                    ? "!w-16 border-0 bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500"
+                                    ? "!w-16 border-0 bg-gradient-to-r from-accent-1 via-accent-2 to-accent-3"
                                     : "bg-slate-350 group-hover:w-16"
                             }`}
                         />

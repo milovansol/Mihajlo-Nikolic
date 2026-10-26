@@ -27,7 +27,7 @@ export default function SocialIcons({ isSticky, noAnimate }: TProps) {
                 {siteConfig.socialLinks.map((link) => (
                     <li key={link.url}>
                         <Link
-                            className="text-2xl hover:text-pink-500 hover:scale-110 transition-all duration-300 cursor-pointer"
+                            className="text-2xl hover:text-accent-1 hover:scale-110 transition-all duration-300 cursor-pointer"
                             href={link.url}
                             target="_blank"
                         >

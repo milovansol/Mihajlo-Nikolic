@@ -33,7 +33,7 @@ export default function AboutStats() {
             {siteConfig.stats.map((stat) => (
                 <div
                     key={stat.label}
-                    className="rounded-xl border border-white/[0.07] bg-white/[0.025] px-3 py-4 text-center hover:border-pink-500/30 hover:bg-white/[0.04] transition-all duration-300"
+                    className="rounded-xl border border-white/[0.07] bg-white/[0.025] px-3 py-4 text-center hover:border-accent-2/30 hover:bg-white/[0.04] transition-all duration-300"
                 >
                     <div className="gradient-accent text-2xl lg:text-3xl font-bold leading-none">
                         <CountUp value={stat.value} suffix={stat.suffix} />

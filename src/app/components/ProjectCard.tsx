@@ -28,7 +28,7 @@ export default function ProjectCard({
             <Link href={link || ''} target="_blank">
                 <div className="flex items-center gap-2 mb-2 -translate-x-1 lg:translate-x-0">
                     <Image src={logo} alt={title} width={32} height={32} />
-                    <h2 className="text-slate-100 text-sm font-bold group-hover:text-orange-500 transition-all duration-300">
+                    <h2 className="text-slate-100 text-sm font-bold group-hover:text-accent-2 transition-all duration-300">
                         {title}
                     </h2>
                 </div>
@@ -41,11 +41,11 @@ export default function ProjectCard({
                   <Link
                       href={link || ''}
                       target="_blank"
-                      className="text-slate-350 !text-[11px] lg:text-sm lg:px-2 block hover:text-pink-500 transition-all duration-300"
+                      className="text-slate-350 !text-[11px] lg:text-sm lg:px-2 block hover:text-accent-1 transition-all duration-300"
                   >
                       <FaLink
                           size={16}
-                          className="inline-block mr-2 text-violet-500"
+                          className="inline-block mr-2 text-accent-3"
                       />
                       {link.split("://")[1]}
                   </Link>
@@ -54,11 +54,11 @@ export default function ProjectCard({
                     <Link
                         href={repoLink}
                         target="_blank"
-                        className="text-slate-350 !text-[11px] lg:text-sm lg:px-2 block hover:text-pink-500 transition-all duration-300"
+                        className="text-slate-350 !text-[11px] lg:text-sm lg:px-2 block hover:text-accent-1 transition-all duration-300"
                     >
                         <FaGithub
                             size={16}
-                            className="inline-block mr-2 text-violet-500"
+                            className="inline-block mr-2 text-accent-3"
                         />
                         {repoLink.split("://")[1]}
                     </Link>

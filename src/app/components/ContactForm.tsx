@@ -117,7 +117,7 @@ export default function ContactForm() {
                                         <Input
                                             placeholder="Mihajlo Nikolic"
                                             {...field}
-                                            className="bg-[rgba(255,255,255,0.01)] border-[rgba(255,255,255,0.1)] text-white text-xs p-2 rounded-sm focus:ring-orange-500"
+                                            className="bg-[rgba(255,255,255,0.01)] border-[rgba(255,255,255,0.1)] text-white text-xs p-2 rounded-sm focus:ring-accent-2"
                                         />
                                     </FormControl>
                                     <FormMessage className="text-xs" />
@@ -136,7 +136,7 @@ export default function ContactForm() {
                                         <Input
                                             placeholder="mihajlon939@gmail.com"
                                             {...field}
-                                            className="bg-[rgba(255,255,255,0.01)] border-[rgba(255,255,255,0.1)] text-white text-xs p-2 rounded-sm focus:ring-orange-500"
+                                            className="bg-[rgba(255,255,255,0.01)] border-[rgba(255,255,255,0.1)] text-white text-xs p-2 rounded-sm focus:ring-accent-2"
                                         />
                                     </FormControl>
                                     <FormMessage className="text-xs" />
@@ -155,7 +155,7 @@ export default function ContactForm() {
                                         <Textarea
                                             placeholder="I would like to request a quote for a website design..."
                                             {...field}
-                                            className="bg-[rgba(255,255,255,0.01)] border-[rgba(255,255,255,0.1)] text-white text-xs p-2 rounded-sm focus:ring-orange-500 w-full"
+                                            className="bg-[rgba(255,255,255,0.01)] border-[rgba(255,255,255,0.1)] text-white text-xs p-2 rounded-sm focus:ring-accent-2 w-full"
                                             rows={4}
                                         />
                                     </FormControl>
@@ -166,7 +166,7 @@ export default function ContactForm() {
                         <div className="col-span-2 flex justify-start">
                             <Button
                                 type="submit"
-                                className="bg-gradient-to-r from-orange-600 to-pink-600 hover:from-orange-500 hover:to-pink-500 hover:shadow-[0_0_24px_rgba(236,72,153,0.5)] transition-all duration-300 dark:text-white text-xs px-4 py-2 rounded-sm w-full"
+                                className="bg-gradient-to-r from-accent-1 via-accent-2 to-accent-3 hover:brightness-110 hover:shadow-[0_0_24px_rgb(var(--accent-2)/0.5)] transition-all duration-300 dark:text-background font-semibold text-xs px-4 py-2 rounded-sm w-full"
                                 disabled={isLoading}
                             >
                                 {isLoading ? "SENDING..." : "SEND MESSAGE"}

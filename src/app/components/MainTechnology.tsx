@@ -16,7 +16,7 @@ export default function MainTechnology({ technology }: MainTechnologyProps) {
 
     return (
         <div
-            className="group flex flex-col items-center gap-2 text-center rounded-xl border border-white/[0.06] bg-white/[0.02] px-2 py-4 hover:-translate-y-1 hover:border-pink-500/30 hover:bg-white/[0.05] hover:shadow-[0_10px_30px_-10px_rgba(236,72,153,0.4)] transition-all duration-300"
+            className="group flex flex-col items-center gap-2 text-center rounded-xl border border-white/[0.06] bg-white/[0.02] px-2 py-4 hover:-translate-y-1 hover:border-accent-2/30 hover:bg-white/[0.05] hover:shadow-[0_10px_30px_-10px_rgb(var(--accent-2)/0.35)] transition-all duration-300"
             title={technology.name}
         >
             {IconWithClasses}

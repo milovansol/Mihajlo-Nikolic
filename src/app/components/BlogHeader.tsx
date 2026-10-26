@@ -9,13 +9,13 @@ export default function BlogHeader() {
         </div>
         <nav>
             <ul className="flex items-center text-xs font-medium gap-2">
-                <li className="hover:text-pink-400 transition duration-300">
+                <li className="hover:text-accent-1 transition duration-300">
                     <Link href="/">HOME</Link>
                 </li>
-                <li className="hover:text-pink-400 transition duration-300">
+                <li className="hover:text-accent-1 transition duration-300">
                     <Link href="/blogs">BLOGS</Link>
                 </li>
-                <li className="hover:text-pink-400 transition duration-300">
+                <li className="hover:text-accent-1 transition duration-300">
                     <Link href="/#contact">HIRE ME</Link>
                 </li>
             </ul>

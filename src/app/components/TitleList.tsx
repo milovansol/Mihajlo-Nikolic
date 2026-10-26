@@ -9,8 +9,8 @@ export default function TitleList({ titles }: { titles: string[] }) {
         isMobile = window.matchMedia("(max-width: 1024px)").matches;
     }
     // Define arrays of colors for text and background
-    const textColors = ["text-orange-500", "text-pink-500", "text-purple-500"];
-    const bgColors = ["bg-orange-950", "bg-pink-950", "bg-purple-950"];
+    const textColors = ["text-accent-1", "text-accent-2", "text-accent-3"];
+    const bgColors = ["bg-accent-1/10", "bg-accent-2/10", "bg-accent-3/10"];
 
     return (
         <ul className="flex flex-wrap gap-2 w-full justify-center lg:justify-start mt-6">

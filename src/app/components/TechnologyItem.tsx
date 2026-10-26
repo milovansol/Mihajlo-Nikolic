@@ -18,7 +18,7 @@ export default function TechnologyItem({ technology, className = "" }: Technolog
 
     return (
         <div
-            className={`group bg-white bg-opacity-[0.03] hover:bg-opacity-[0.07] border border-white/[0.06] hover:border-pink-500/30 transition-all duration-300 rounded-lg aspect-square flex justify-center items-center ${className}`}
+            className={`group bg-white bg-opacity-[0.03] hover:bg-opacity-[0.07] border border-white/[0.06] hover:border-accent-2/30 transition-all duration-300 rounded-lg aspect-square flex justify-center items-center ${className}`}
             title={technology.name}
         >
             {IconWithClasses}

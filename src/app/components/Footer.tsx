@@ -23,7 +23,7 @@ export default function Footer({ isSticky, noAnimate }: TProps) {
             <p className="mb-0 leading-none">
                 Made with ❤️ by{" "}
                 <Link
-                    className="underline uppercase font-bold text-blue-400 hover:text-pink-400 transition-colors duration-300"
+                    className="underline uppercase font-bold text-accent-1 hover:text-accent-3 transition-colors duration-300"
                     href={
                         siteConfig.socialLinks.find((link) =>
                             link.url.includes("github")

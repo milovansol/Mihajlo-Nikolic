@@ -10,8 +10,13 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
-  			background: 'rgb(3,0,15)',
+  			background: 'rgb(10,7,6)',
   			foreground: 'rgb(255,255,255)',
+        accent: {
+          1: 'rgb(var(--accent-1) / <alpha-value>)',
+          2: 'rgb(var(--accent-2) / <alpha-value>)',
+          3: 'rgb(var(--accent-3) / <alpha-value>)',
+        },
         slate: {
           // 350: 'rgb(163,160,185)',
           350: 'rgb(175.5,188,204.5)'

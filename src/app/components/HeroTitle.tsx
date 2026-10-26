@@ -20,7 +20,7 @@ export default function HeroTitle() {
                 className="text-lg sm:text-xl md:text-2xl font-medium flex items-center w-full justify-center lg:justify-start"
             >
                 <Image
-                    src="/logox.png"
+                    src="/logo-gold.png"
                     alt="Mihajlo Nikolic Portfolio Logo"
                     className="w-7 h-7 mr-1 rounded-md"
                     width={28}
