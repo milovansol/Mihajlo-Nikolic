@@ -34,7 +34,7 @@ export default function Footer({ isSticky, noAnimate }: TProps) {
                 </Link>
             </p>
             <p className="mb-0 text-[8px]">
-                &copy; 2024 {siteConfig.title}. All rights
+                &copy; {new Date().getFullYear()} {siteConfig.title}. All rights
                 reserved.
             </p>
         </motion.footer>
