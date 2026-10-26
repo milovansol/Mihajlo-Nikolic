@@ -11,6 +11,7 @@ import HireMeButton from "./components/HireMeButton";
 import Footer from "./components/Footer";
 import ContactForm from "./components/ContactForm";
 import Technologies from "./components/Technologies";
+import AIWorkspace from "./components/AIWorkspace";
 
 export default async function Home() {
     const jsonLd = {
@@ -46,6 +47,7 @@ export default async function Home() {
                     </div>
                 </header>
                 <main className="w-full lg:w-1/2 px-4 sm:px-0 pt-20 lg:pt-40 text-slate-350 text-sm flex flex-wrap justify-center lg:block lg:mb-40">
+                    <AIWorkspace />
                     <AboutMe />
                     <Experiences />
                     {/*{siteConfig.sections.projects.length && (<Projects />)}*/}

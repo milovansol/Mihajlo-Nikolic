@@ -152,10 +152,22 @@
   }
 }
 
+/* Data flowing along the AI workspace pipeline */
+.flow-dash {
+  animation: flow-dash 0.8s linear infinite;
+}
+
+@keyframes flow-dash {
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .gradient-accent,
   .aurora-blob,
-  .marquee-track {
+  .marquee-track,
+  .flow-dash {
     animation: none !important;
   }
 }
