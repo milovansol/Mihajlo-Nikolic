@@ -75,6 +75,11 @@ export const siteConfig = {
         "AI Application Specialist",
         "Digital Solutions Developer",
     ],
+    stats: [
+        { value: 10, suffix: "+", label: "Years of experience" },
+        { value: 3, suffix: "", label: "Industries served" },
+        { value: 40, suffix: "+", label: "Technologies" },
+    ],
     socialLinks: [
         {
             icon: <FaGithub />,

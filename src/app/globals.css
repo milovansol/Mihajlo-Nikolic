@@ -3,7 +3,154 @@
 @tailwind utilities;
 
 .gradient-accent {
-    @apply text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-purple-500;
+    @apply text-transparent bg-clip-text;
+    background-image: linear-gradient(90deg, #f97316, #ec4899, #a855f7, #ec4899, #f97316);
+    background-size: 200% auto;
+    animation: gradient-shift 6s linear infinite;
+}
+
+@keyframes gradient-shift {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* Aurora background */
+.aurora-blob {
+  position: absolute;
+  border-radius: 9999px;
+  will-change: transform;
+}
+
+.aurora-blob-1 {
+  width: 60vw;
+  height: 60vw;
+  top: -25vw;
+  left: -20vw;
+  background: radial-gradient(circle, rgba(124, 58, 237, 0.28) 0%, transparent 65%);
+  animation: aurora-1 22s ease-in-out infinite alternate;
+}
+
+.aurora-blob-2 {
+  width: 55vw;
+  height: 55vw;
+  bottom: -25vw;
+  right: -20vw;
+  background: radial-gradient(circle, rgba(236, 72, 153, 0.2) 0%, transparent 65%);
+  animation: aurora-2 26s ease-in-out infinite alternate;
+}
+
+.aurora-blob-3 {
+  width: 45vw;
+  height: 45vw;
+  top: 25%;
+  left: 35%;
+  background: radial-gradient(circle, rgba(249, 115, 22, 0.1) 0%, transparent 65%);
+  animation: aurora-3 30s ease-in-out infinite alternate;
+}
+
+@keyframes aurora-1 {
+  to {
+    transform: translate(18vw, 12vh) scale(1.15);
+  }
+}
+
+@keyframes aurora-2 {
+  to {
+    transform: translate(-15vw, -10vh) scale(1.2);
+  }
+}
+
+@keyframes aurora-3 {
+  to {
+    transform: translate(-20vw, 15vh) scale(0.85);
+  }
+}
+
+/* Glass card with a cursor-following glow and gradient border */
+.spotlight-card {
+  position: relative;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(6px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.spotlight-card::before,
+.spotlight-card::after {
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.spotlight-card::before {
+  inset: 0;
+  background: radial-gradient(400px circle at var(--spot-x, 50%) var(--spot-y, 50%), rgba(236, 72, 153, 0.1), transparent 45%);
+}
+
+.spotlight-card::after {
+  inset: -1px;
+  padding: 1px;
+  background: radial-gradient(300px circle at var(--spot-x, 50%) var(--spot-y, 50%), rgba(249, 115, 22, 0.9), rgba(168, 85, 247, 0.6) 40%, transparent 70%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.spotlight-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 12px 40px -12px rgba(168, 85, 247, 0.35);
+}
+
+.spotlight-card:hover::before,
+.spotlight-card:hover::after {
+  opacity: 1;
+}
+
+/* Experience bullet points */
+.exp-description li {
+  @apply mb-1.5 ml-4 pl-1;
+}
+
+.exp-description li::marker {
+  color: #ec4899;
+}
+
+/* Technology marquee */
+.marquee-mask {
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 12%, #000 88%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 12%, #000 88%, transparent);
+}
+
+.marquee-track {
+  animation: marquee 45s linear infinite;
+}
+
+.marquee-reverse {
+  animation-direction: reverse;
+}
+
+.marquee-mask:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gradient-accent,
+  .aurora-blob,
+  .marquee-track {
+    animation: none !important;
+  }
 }
 
 main p {
@@ -22,6 +169,12 @@ main strong {
 /* Add this to your global CSS file */
 html {
   scroll-behavior: smooth;
+}
+
+/* Slide-in animations start off-screen; don't let them cause sideways scroll */
+html,
+body {
+  overflow-x: clip;
 }
 
 [id] {

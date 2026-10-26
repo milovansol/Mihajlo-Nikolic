@@ -7,6 +7,7 @@ import MotionTag from "./MotionTag";
 import SectionLabel from "./SectionLabel";
 import { useState } from "react";
 import TechnologyItem from "./TechnologyItem";
+import TechMarquee from "./TechMarquee";
 import { Separator } from "@/components/ui/separator";
 
 export default function Technologies() {
@@ -24,6 +25,7 @@ export default function Technologies() {
             variants={slideInFromRight(1.4)}
             initial="hidden"
             animate="visible"
+            className="w-full min-w-0"
         >
             <section
                 id="technologies"
@@ -31,7 +33,7 @@ export default function Technologies() {
             >
                 <SectionLabel label="TECHNOLOGIES" />
                 {selectedCategory === Categories.MAIN ? (
-                    <div className="w-full grid grid-cols-3 gap-4">
+                    <div className="w-full grid grid-cols-3 gap-3">
                         {technologies.main.map((technology, index) => {
                             return (
                                 <MainTechnology
@@ -86,6 +88,7 @@ export default function Technologies() {
                         All Technologies
                     </button>
                 </div>
+                <TechMarquee />
             </section>
         </MotionTag>
     );

@@ -8,6 +8,8 @@ import { Analytics } from "@vercel/analytics/react";
 import { siteConfig } from "./config";
 import { Toaster } from "sonner";
 import Plausible from "./components/Plausible";
+import AuroraBackground from "./components/AuroraBackground";
+import ScrollProgress from "./components/ScrollProgress";
 
 // const geistSans = localFont({
 //     src: "./fonts/GeistVF.woff",
@@ -82,6 +84,8 @@ export default function RootLayout({
             <body
                 className={`${inter.className} antialiased bg-background text-slate-100`}
             >
+                <ScrollProgress />
+                <AuroraBackground />
                 <StarsCanvas />
                 <Glow />
                 <Toaster />

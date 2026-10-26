@@ -20,6 +20,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import SectionLabel from "./SectionLabel";
+import SpotlightCard from "./SpotlightCard";
 import { sendMail } from "../utils/sendMail";
 import { toast } from "sonner";
 
@@ -98,6 +99,7 @@ export default function ContactForm() {
         >
             <section className="w-full text-sm" id="contact">
                 <SectionLabel label="CONTACT" />
+                <SpotlightCard className="p-4 lg:p-6">
                 <Form {...form}>
                     <form
                         onSubmit={form.handleSubmit(onSubmit)}
@@ -164,7 +166,7 @@ export default function ContactForm() {
                         <div className="col-span-2 flex justify-start">
                             <Button
                                 type="submit"
-                                className="bg-gradient-to-r from-orange-600 to-pink-600 hover:from-orange-500 hover:to-pink-500 dark:text-white text-xs px-4 py-2 rounded-sm w-full"
+                                className="bg-gradient-to-r from-orange-600 to-pink-600 hover:from-orange-500 hover:to-pink-500 hover:shadow-[0_0_24px_rgba(236,72,153,0.5)] transition-all duration-300 dark:text-white text-xs px-4 py-2 rounded-sm w-full"
                                 disabled={isLoading}
                             >
                                 {isLoading ? "SENDING..." : "SEND MESSAGE"}
@@ -173,6 +175,7 @@ export default function ContactForm() {
                         </div>
                     </form>
                 </Form>
+                </SpotlightCard>
             </section>
         </MotionTag>
     );

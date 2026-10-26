@@ -1,6 +1,7 @@
 import { siteConfig } from "@/app/config";
 import SectionLabel from "./SectionLabel";
 import MotionTag from "./MotionTag";
+import AboutStats from "./AboutStats";
 import { slideInFromRight } from "../utils/motion";
 
 export default function AboutMe() {
@@ -22,6 +23,7 @@ export default function AboutMe() {
                         __html: siteConfig.sections.aboutMe,
                     }}
                 />
+                <AboutStats />
             </section>
         </MotionTag>
     );

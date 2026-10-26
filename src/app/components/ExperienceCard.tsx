@@ -1,3 +1,5 @@
+import SpotlightCard from "./SpotlightCard";
+
 type TProps = {
     company: string;
     position: string;
@@ -11,14 +13,50 @@ export default function ExperienceCard({
     duration,
     description,
 }: TProps) {
+    const isCurrent = duration.includes("Present");
+    const hasDescription = description.replace(/<[^>]*>/g, "").trim().length > 0;
+
     return (
-        <div className="w-full mb-8 lg:mb-12 lg:grid grid-cols-4">
-            <p className="text-slate-400 text-[11px] lg:text-xs !mb-1 leading-none">{duration}</p>
-            <div className="col-span-3">
-                <h2 className="text-slate-100 text-sm font-bold">{company}</h2>
-                <h3 className="text-slate-200 text-sm font-medium">{position}</h3>
-                <p className="text-slate-350 text-xs mt-2 lg:text-sm lg:mt-4" dangerouslySetInnerHTML={{ __html: description }}></p>
-            </div>
+        <div className="group/exp relative w-full pl-7 lg:pl-8 pb-6 lg:pb-8 last:pb-0">
+            {/* Timeline line and dot */}
+            <span
+                aria-hidden
+                className="absolute left-[7px] top-5 bottom-0 w-px bg-gradient-to-b from-pink-500/60 via-purple-500/30 to-transparent group-last/exp:hidden"
+            />
+            <span
+                aria-hidden
+                className="absolute left-0 top-[18px] flex h-[15px] w-[15px] items-center justify-center rounded-full border border-pink-400/60 bg-background"
+            >
+                {isCurrent && (
+                    <span className="absolute inset-0 rounded-full bg-pink-500/40 animate-ping" />
+                )}
+                <span className="h-[7px] w-[7px] rounded-full bg-gradient-to-br from-orange-400 to-purple-500 shadow-[0_0_12px_rgba(236,72,153,0.9)]" />
+            </span>
+
+            <SpotlightCard className="p-4 lg:p-5">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                    <h2 className="text-slate-100 text-sm font-bold">{company}</h2>
+                    <span
+                        className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-[10px] lg:text-[11px] font-medium ${
+                            isCurrent
+                                ? "border-emerald-500/30 bg-emerald-500/10 text-emerald-300"
+                                : "border-white/10 bg-white/[0.04] text-slate-350"
+                        }`}
+                    >
+                        {isCurrent && (
+                            <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                        )}
+                        {duration}
+                    </span>
+                </div>
+                <h3 className="gradient-accent text-sm font-semibold mt-1 w-fit">{position}</h3>
+                {hasDescription && (
+                    <div
+                        className="exp-description text-slate-350 text-xs mt-3 lg:text-sm lg:mt-4 leading-relaxed"
+                        dangerouslySetInnerHTML={{ __html: description }}
+                    />
+                )}
+            </SpotlightCard>
         </div>
     );
 }
